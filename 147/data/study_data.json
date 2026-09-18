@@ -1,0 +1,40 @@
+[
+    {
+        "content": "Data Manipulation",
+        "created_date": "2026-09-16",
+        "reviews": {
+            "day_1": {
+                "date": "2026-09-16",
+                "completed": false
+            },
+            "day_4": {
+                "date": "2026-09-19",
+                "completed": false
+            },
+            "day_7": {
+                "date": "2026-09-22",
+                "completed": false
+            }
+        },
+        "id": 1
+    },
+    {
+        "content": "Python Decorators",
+        "created_date": "2026-09-16",
+        "reviews": {
+            "day_1": {
+                "date": "2026-09-16",
+                "completed": false
+            },
+            "day_4": {
+                "date": "2026-09-19",
+                "completed": false
+            },
+            "day_7": {
+                "date": "2026-09-22",
+                "completed": false
+            }
+        },
+        "id": 2
+    }
+]
