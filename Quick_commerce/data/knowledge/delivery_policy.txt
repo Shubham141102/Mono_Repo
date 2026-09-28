@@ -1,0 +1,15 @@
+Delivery Policy
+
+1. Delivery performance should be evaluated using delivery duration, delivery status, and delivery completion rate.
+
+2. Delivered orders should be used when calculating completed delivery performance.
+
+3. Orders that are cancelled should not be treated as successfully delivered orders.
+
+4. Delivery partners with consistently longer delivery times should be reviewed for operational issues.
+
+5. Store-level delivery performance should be monitored because delivery performance can vary between locations.
+
+6. High delivery volume should be considered when evaluating delivery performance.
+
+7. Delivery metrics should be interpreted together with order volume rather than using delivery time alone.

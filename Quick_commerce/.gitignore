@@ -1,0 +1,215 @@
+# ============================================================
+
+# PYTHON
+
+# ============================================================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Python virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================================================
+
+# JUPYTER / NOTEBOOKS
+
+# ============================================================
+
+.ipynb_checkpoints/
+
+# ============================================================
+
+# IDE / EDITOR
+
+# ============================================================
+
+.vscode/
+.idea/
+
+# VS Code local settings
+
+*.code-workspace
+
+# ============================================================
+
+# ENVIRONMENT / SECRETS
+
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Local credentials / keys
+
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ============================================================
+
+# GENERATED DATA
+
+# ============================================================
+
+# Raw/generated datasets
+
+data/raw/
+data/raw_dirty/
+
+# Bronze / Silver / Gold generated outputs
+
+data/bronze/
+data/silver/
+data/gold/
+
+# ML-generated datasets
+
+data/ml/
+
+# Data quarantine
+
+data/quarantine/
+
+# Temporary/generated files
+
+data/tmp/
+data/temp/
+
+# ============================================================
+
+# GENERATED MODELS
+
+# ============================================================
+
+models/*.pkl
+models/*.joblib
+models/*.pickle
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.h5
+models/*.keras
+
+# ============================================================
+
+# LOGS
+
+# ============================================================
+
+*.log
+logs/
+
+# ============================================================
+
+# STREAMLIT
+
+# ============================================================
+
+.streamlit/secrets.toml
+
+# ============================================================
+
+# SPARK / HADOOP / LOCAL TEMP FILES
+
+# ============================================================
+
+.sparkStaging/
+spark-warehouse/
+metastore_db/
+derby.log/
+
+*.crc
+
+# ============================================================
+
+# OS FILES
+
+# ============================================================
+
+# Windows
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+
+.DS_Store
+
+# ============================================================
+
+# TEMPORARY FILES
+
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ============================================================
+
+# PROJECT-SPECIFIC GENERATED FILES
+
+# ============================================================
+
+# Generated reports
+
+reports/generated/
+
+# Generated charts
+
+outputs/
+
+# ============================================================
+
+# KEEP IMPORTANT PROJECT FILES
+
+# ============================================================
+
+# Knowledge documents are intentionally NOT ignored.
+
+# Keep:
+
+# data/knowledge/
+
+#
+
+# Documentation is intentionally NOT ignored.
+
+# Keep:
+
+# docs/
+
+#
+
+# Source code is intentionally NOT ignored.
+
+# Keep:
+
+# pipelines/
+
+# frontend/
+
+# data_generator/
+
+# quality/

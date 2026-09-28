@@ -1,0 +1,15 @@
+Inventory Policy
+
+1. Products with stock quantity at or below the reorder level should be reviewed for replenishment.
+
+2. Products with zero stock require immediate replenishment attention.
+
+3. High-demand products should receive higher replenishment priority than low-demand products.
+
+4. Products with consistently increasing demand should be monitored closely to avoid stockouts.
+
+5. Inventory decisions should consider both current stock quantity and recent demand patterns.
+
+6. A product should not be treated as high priority solely because of low stock if its recent demand is consistently low.
+
+7. Store-level inventory should be evaluated independently because product demand can vary significantly between stores.

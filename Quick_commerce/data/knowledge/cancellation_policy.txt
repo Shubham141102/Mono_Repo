@@ -1,0 +1,15 @@
+Cancellation Policy
+
+1. Cancelled orders should be monitored to identify recurring operational or customer-related issues.
+
+2. Cancellation rate should be evaluated relative to total orders.
+
+3. A high number of cancellations at a particular store should trigger further investigation.
+
+4. Cancellation patterns should be evaluated by time period to identify recurring trends.
+
+5. Cancellation analysis should consider payment method, delivery type, store, and customer segment where the data is available.
+
+6. A single cancelled order should not be treated as evidence of a systemic problem.
+
+7. Repeated cancellation patterns should be investigated before operational changes are recommended.
