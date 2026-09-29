@@ -1,0 +1,961 @@
+product_id,product_name,category,subcategory,brand,unit_price,cost_price,unit,is_active
+PROD000001,Mother Dairy Natural Curd 1,Dairy,Curd,Mother Dairy,586.45,456.73,kg,True
+PROD000002,Lux Special Soap 2,Personal Care,Soap,Lux,1205.64,883.37,gram,True
+PROD000003,Fortune Original Cooking Oil 3,Grocery,Cooking Oil,Fortune,1707.53,1219.34,gram,True
+PROD000004,Mother Dairy Original Curd 4,Dairy,Curd,Mother Dairy,1704.73,1357.08,pack,True
+PROD000005,Red Bull Original Energy Drinks 5,Beverages,Energy Drinks,Red Bull,1034.61,722.98,litre,True
+PROD000006,Aashirvaad Value Atta 6,Grocery,Atta,Aashirvaad,380.04,216.27,piece,True
+PROD000007,Mother Dairy Premium Curd 7,Dairy,Curd,Mother Dairy,1681.41,1074.17,litre,True
+PROD000009,Fresho Natural Fresh Vegetables 9,Vegetables,Fresh Vegetables,Fresho,673.76,504.8,pack,True
+PROD000010,Amul Value Cheese 10,Dairy,Cheese,Amul,1566.11,884.9,kg,True
+PROD000011,Red Bull Special Energy Drinks 11,Beverages,Energy Drinks,Red Bull,1350.33,771.18,ml,True
+PROD000012,Fresho Family Fresh Fruits 12,Fruits,Fresh Fruits,Fresho,999.96,783.71,ml,False
+PROD000013,Mother Dairy Premium Curd 13,Dairy,Curd,Mother Dairy,956.66,645.25,kg,True
+PROD000014,Amul Value Cheese 14,Dairy,Cheese,Amul,1749.56,1346.0,kg,True
+PROD000015,India Gate Fresh Rice 15,Grocery,Rice,India Gate,860.99,625.2,piece,True
+PROD000016,Coca-cola Family Soft Drinks 16,Beverages,Soft Drinks,Coca-cola,269.55,149.63,piece,False
+PROD000017,Haldiram Family Namkeen 17,Snacks,Namkeen,Haldiram,1875.94,1427.41,gram,True
+PROD000018,Mother Dairy Original Curd 18,Dairy,Curd,Mother Dairy,204.05,124.84,pack,False
+PROD000019,Haldiram Family Namkeen 19,Snacks,Namkeen,Haldiram,1196.62,804.86,gram,True
+PROD000020,Mother Dairy Organic Curd 20,Dairy,Curd,Mother Dairy,387.89,234.03,ml,True
+PROD000021,Parle Organic Biscuits 21,Snacks,Biscuits,Parle,1918.46,1182.89,pack,False
+PROD000023,Amul Special Milk 23,Dairy,Milk,Amul,1100.71,807.89,litre,True
+PROD000024,Aashirvaad Natural Atta 24,Grocery,Atta,Aashirvaad,704.2,433.71,gram,True
+PROD000025,Parle Premium Biscuits 25,Snacks,Biscuits,Parle,32.11,24.4,litre,False
+PROD000026,Lays Fresh Chips 26,Snacks,Chips,Lays,765.93,445.5,gram,True
+PROD000027,Fresho Special Fresh Vegetables 27,Vegetables,Fresh Vegetables,Fresho,638.97,454.6,litre,True
+PROD000028,Parle Daily Biscuits 28,Snacks,Biscuits,Parle,415.39,233.93,gram,True
+PROD000029,Amul Family Cheese 29,Dairy,Cheese,Amul,973.85,634.85,pack,True
+PROD000030,Lays Daily Chips 30,Snacks,Chips,Lays,960.6,712.87,litre,False
+PROD000031,Fresho Daily Fresh Fruits 31,Fruits,Fresh Fruits,Fresho,1450.9,1223.31,ml,False
+PROD000032,India Gate Special Rice 32,Grocery,Rice,India Gate,1227.91,941.98,litre,True
+PROD000033,Lays Fresh Chips 33,Snacks,Chips,Lays,1235.56,938.85,litre,True
+PROD000034,Coca-cola Premium Soft Drinks 34,Beverages,Soft Drinks,Coca-cola,1601.91,1187.57,ml,True
+PROD000036,Red Bull Daily Energy Drinks 36,Beverages,Energy Drinks,Red Bull,982.33,676.45,piece,True
+PROD000037,Lux Fresh Soap 37,Personal Care,Soap,Lux,896.81,565.01,piece,True
+PROD000038,Britannia Original Bread 38,Bakery,Bread,Britannia,678.95,393.96,ml,False
+PROD000039,Fresho Organic Fresh Vegetables 39,Vegetables,Fresh Vegetables,Fresho,633.08,499.37,gram,True
+PROD000040,Britannia Value Bread 40,Bakery,Bread,Britannia,616.71,419.58,kg,True
+PROD000041,Red Bull Fresh Energy Drinks 41,Beverages,Energy Drinks,Red Bull,619.81,365.23,pack,True
+PROD000042,Red Bull Special Energy Drinks 42,Beverages,Energy Drinks,Red Bull,1381.46,1025.88,ml,True
+PROD000043,Haldiram Special Namkeen 43,Snacks,Namkeen,Haldiram,1813.38,1208.68,pack,True
+PROD000044,Coca-cola Fresh Soft Drinks 44,Beverages,Soft Drinks,Coca-cola,1686.37,1188.25,piece,False
+PROD000045,Fresho Premium Fresh Fruits 45,Fruits,Fresh Fruits,Fresho,1012.13,856.07,pack,False
+PROD000046,Mother Dairy Natural Curd 46,Dairy,Curd,Mother Dairy,764.57,521.27,litre,False
+PROD000047,India Gate Natural Rice 47,Grocery,Rice,India Gate,1303.61,758.66,gram,True
+PROD000048,Fresho Natural Fresh Fruits 48,Fruits,Fresh Fruits,Fresho,233.15,178.8,ml,True
+PROD000049,India Gate Fresh Rice 49,Grocery,Rice,India Gate,864.02,513.4,kg,True
+PROD000050,Amul Premium Cheese 50,Dairy,Cheese,Amul,544.86,450.33,litre,True
+PROD000051,Red Bull Family Energy Drinks 51,Beverages,Energy Drinks,Red Bull,64.5,42.37,piece,False
+PROD000052,Lux Premium Soap 52,Personal Care,Soap,Lux,136.88,101.35,pack,True
+PROD000053,Lays Original Chips 53,Snacks,Chips,Lays,1235.74,770.33,piece,True
+PROD000054,Coca-cola Special Soft Drinks 54,Beverages,Soft Drinks,Coca-cola,622.24,355.71,ml,True
+PROD000055,Haldiram Fresh Namkeen 55,Snacks,Namkeen,Haldiram,570.86,418.1,ml,True
+PROD000056,Harpic Original Cleaning 56,Household,Cleaning,Harpic,1603.47,1079.32,ml,True
+PROD000057,Lux Natural Soap 57,Personal Care,Soap,Lux,757.95,584.73,gram,False
+PROD000058,Amul Natural Milk 58,Dairy,Milk,Amul,1054.49,839.09,piece,True
+PROD000059,Coca-cola Premium Soft Drinks 59,Beverages,Soft Drinks,Coca-cola,169.5,97.16,piece,True
+PROD000060,Haldiram Special Namkeen 60,Snacks,Namkeen,Haldiram,1937.11,1446.23,gram,True
+PROD000061,Harpic Family Cleaning 61,Household,Cleaning,Harpic,1531.24,847.25,kg,True
+PROD000062,Monginis Special Cakes 62,Bakery,Cakes,Monginis,190.37,105.32,litre,True
+PROD000064,India Gate Special Rice 64,Grocery,Rice,India Gate,1119.56,760.3,piece,True
+PROD000065,Aashirvaad Original Atta 65,Grocery,Atta,Aashirvaad,655.18,415.96,litre,True
+PROD000067,Amul Special Milk 67,Dairy,Milk,Amul,865.88,541.88,kg,True
+PROD000068,Britannia Original Bread 68,Bakery,Bread,Britannia,912.12,510.53,kg,True
+PROD000069,Fresho Organic Fresh Vegetables 69,Vegetables,Fresh Vegetables,Fresho,180.7,101.77,litre,True
+PROD000070,Dove Daily Shampoo 70,Personal Care,Shampoo,Dove,674.6,486.37,piece,False
+PROD000071,Britannia Premium Bread 71,Bakery,Bread,Britannia,1016.41,615.99,gram,False
+PROD000072,Dove Value Shampoo 72,Personal Care,Shampoo,Dove,968.25,596.98,ml,True
+PROD000075,India Gate Original Rice 75,Grocery,Rice,India Gate,1806.67,1390.63,gram,True
+PROD000076,Amul Daily Milk 76,Dairy,Milk,Amul,1270.02,704.09,pack,True
+PROD000077,Fortune Value Cooking Oil 77,Grocery,Cooking Oil,Fortune,1308.41,780.51,litre,False
+PROD000078,Dove Organic Shampoo 78,Personal Care,Shampoo,Dove,1167.1,736.57,litre,True
+PROD000079,Fresho Value Fresh Fruits 79,Fruits,Fresh Fruits,Fresho,1236.07,942.8,litre,True
+PROD000081,Haldiram Premium Namkeen 81,Snacks,Namkeen,Haldiram,312.63,193.47,kg,True
+PROD000082,Red Bull Classic Energy Drinks 82,Beverages,Energy Drinks,Red Bull,1155.24,980.17,pack,True
+PROD000083,Monginis Value Cakes 83,Bakery,Cakes,Monginis,612.69,468.6,pack,True
+PROD000084,Amul Family Cheese 84,Dairy,Cheese,Amul,755.06,516.66,piece,False
+PROD000085,Aashirvaad Fresh Atta 85,Grocery,Atta,Aashirvaad,153.4,89.42,gram,False
+PROD000086,Fresho Fresh Fresh Fruits 86,Fruits,Fresh Fruits,Fresho,709.07,403.01,ml,False
+PROD000087,Fortune Value Cooking Oil 87,Grocery,Cooking Oil,Fortune,1402.7,1187.46,litre,True
+PROD000088,Fresho Classic Fresh Vegetables 88,Vegetables,Fresh Vegetables,Fresho,1678.41,1274.32,pack,True
+PROD000089,Red Bull Special Energy Drinks 89,Beverages,Energy Drinks,Red Bull,1794.59,1168.53,gram,True
+PROD000090,Monginis Fresh Cakes 90,Bakery,Cakes,Monginis,681.5,435.43,pack,True
+PROD000091,Dove Family Shampoo 91,Personal Care,Shampoo,Dove,1110.63,784.03,pack,True
+PROD000092,Fresho Daily Fresh Vegetables 92,Vegetables,Fresh Vegetables,Fresho,475.65,388.35,kg,True
+PROD000093,Harpic Classic Cleaning 93,Household,Cleaning,Harpic,1398.77,821.39,piece,True
+PROD000094,Fresho Value Fresh Vegetables 94,Vegetables,Fresh Vegetables,Fresho,437.85,242.15,piece,True
+PROD000095,Mother Dairy Premium Curd 95,Dairy,Curd,Mother Dairy,83.69,56.05,pack,True
+PROD000096,Mother Dairy Value Curd 96,Dairy,Curd,Mother Dairy,1855.95,1427.9,gram,True
+PROD000097,Amul Daily Cheese 97,Dairy,Cheese,Amul,1967.75,1229.02,piece,False
+PROD000098,Coca-cola Natural Soft Drinks 98,Beverages,Soft Drinks,Coca-cola,1573.34,1019.56,litre,False
+PROD000099,India Gate Family Rice 99,Grocery,Rice,India Gate,1355.64,1097.76,ml,True
+PROD000100,Amul Family Cheese 100,Dairy,Cheese,Amul,881.97,567.62,litre,False
+PROD000101,Harpic Value Cleaning 101,Household,Cleaning,Harpic,1145.59,660.31,piece,True
+PROD000102,Coca-cola Natural Soft Drinks 102,Beverages,Soft Drinks,Coca-cola,779.84,475.0,pack,True
+PROD000103,Britannia Natural Bread 103,Bakery,Bread,Britannia,1864.25,1117.19,pack,True
+PROD000104,India Gate Natural Rice 104,Grocery,Rice,India Gate,666.0,431.18,gram,True
+PROD000105,Lux Classic Soap 105,Personal Care,Soap,Lux,1101.51,644.63,gram,True
+PROD000106,Fresho Natural Fresh Fruits 106,Fruits,Fresh Fruits,Fresho,1127.77,835.72,kg,True
+PROD000107,Fresho Original Fresh Vegetables 107,Vegetables,Fresh Vegetables,Fresho,469.27,381.11,ml,True
+PROD000108,Surf Excel Family Laundry 108,Household,Laundry,Surf Excel,1698.62,1130.24,kg,True
+PROD000109,Real Natural Juice 109,Beverages,Juice,Real,757.28,590.02,litre,True
+PROD000110,Aashirvaad Original Atta 110,Grocery,Atta,Aashirvaad,336.04,187.62,piece,True
+PROD000111,Aashirvaad Fresh Atta 111,Grocery,Atta,Aashirvaad,619.45,361.13,litre,True
+PROD000112,Monginis Special Cakes 112,Bakery,Cakes,Monginis,1775.77,1188.12,pack,True
+PROD000113,Fortune Fresh Cooking Oil 113,Grocery,Cooking Oil,Fortune,890.45,547.76,pack,True
+PROD000114,Amul Daily Cheese 114,Dairy,Cheese,Amul,1902.49,1146.75,kg,False
+PROD000115,Fresho Classic Fresh Fruits 115,Fruits,Fresh Fruits,Fresho,1041.02,714.38,kg,True
+PROD000116,Coca-cola Premium Soft Drinks 116,Beverages,Soft Drinks,Coca-cola,22.45,14.36,ml,True
+PROD000117,Haldiram Daily Namkeen 117,Snacks,Namkeen,Haldiram,1173.18,878.81,ml,False
+PROD000118,Lays Organic Chips 118,Snacks,Chips,Lays,1806.79,1060.0,kg,False
+PROD000119,Lays Classic Chips 119,Snacks,Chips,Lays,1052.38,840.09,kg,True
+PROD000120,Harpic Family Cleaning 120,Household,Cleaning,Harpic,1410.79,881.2,litre,True
+PROD000121,Haldiram Value Namkeen 121,Snacks,Namkeen,Haldiram,805.23,533.48,gram,True
+PROD000122,Fresho Premium Fresh Fruits 122,Fruits,Fresh Fruits,Fresho,1896.7,1193.03,ml,True
+PROD000123,Mother Dairy Organic Curd 123,Dairy,Curd,Mother Dairy,939.39,605.78,gram,False
+PROD000125,Monginis Premium Cakes 125,Bakery,Cakes,Monginis,437.63,243.91,piece,False
+PROD000126,Mother Dairy Family Curd 126,Dairy,Curd,Mother Dairy,1194.1,820.54,ml,True
+PROD000127,Parle Classic Biscuits 127,Snacks,Biscuits,Parle,635.08,421.2,kg,False
+PROD000128,Britannia Fresh Bread 128,Bakery,Bread,Britannia,469.3,375.57,ml,True
+PROD000129,Parle Daily Biscuits 129,Snacks,Biscuits,Parle,1559.47,879.58,gram,True
+PROD000130,Amul Organic Milk 130,Dairy,Milk,Amul,677.06,491.0,gram,True
+PROD000131,India Gate Classic Rice 131,Grocery,Rice,India Gate,1174.87,823.05,litre,True
+PROD000132,Surf Excel Natural Laundry 132,Household,Laundry,Surf Excel,235.83,156.6,kg,True
+PROD000133,Fresho Family Fresh Fruits 133,Fruits,Fresh Fruits,Fresho,1633.01,1382.34,kg,False
+PROD000134,Dove Natural Shampoo 134,Personal Care,Shampoo,Dove,249.84,139.7,piece,True
+PROD000135,Harpic Family Cleaning 135,Household,Cleaning,Harpic,888.54,622.08,gram,False
+PROD000136,Dove Classic Shampoo 136,Personal Care,Shampoo,Dove,603.02,423.97,litre,False
+PROD000137,Aashirvaad Premium Atta 137,Grocery,Atta,Aashirvaad,1632.9,1187.04,piece,True
+PROD000138,Fresho Special Fresh Fruits 138,Fruits,Fresh Fruits,Fresho,1004.89,822.04,pack,True
+PROD000139,Amul Family Cheese 139,Dairy,Cheese,Amul,1025.91,799.09,piece,True
+PROD000140,Amul Original Milk 140,Dairy,Milk,Amul,1797.18,1250.35,pack,True
+PROD000141,Fresho Premium Fresh Vegetables 141,Vegetables,Fresh Vegetables,Fresho,1680.14,947.71,pack,True
+PROD000142,Aashirvaad Daily Atta 142,Grocery,Atta,Aashirvaad,1062.17,823.55,litre,True
+PROD000143,Surf Excel Premium Laundry 143,Household,Laundry,Surf Excel,1916.54,1594.92,piece,False
+PROD000144,Aashirvaad Classic Atta 144,Grocery,Atta,Aashirvaad,408.39,325.97,kg,True
+PROD000145,Surf Excel Fresh Laundry 145,Household,Laundry,Surf Excel,157.5,106.57,invalid_unit,True
+PROD000146,Aashirvaad Fresh Atta 146,Grocery,Atta,Aashirvaad,1755.39,1028.58,piece,True
+PROD000147,Surf Excel Value Laundry 147,Household,Laundry,Surf Excel,119.18,96.34,pack,True
+PROD000148,Amul Classic Milk 148,Dairy,Milk,Amul,96.74,66.94,kg,True
+PROD000149,Fresho Premium Fresh Fruits 149,Fruits,Fresh Fruits,Fresho,1045.91,677.19,gram,True
+PROD000150,India Gate Fresh Rice 150,Grocery,Rice,India Gate,549.55,439.77,ml,True
+PROD000151,Monginis Family Cakes 151,Bakery,Cakes,Monginis,766.19,650.45,kg,False
+PROD000152,Aashirvaad Original Atta 152,Grocery,Atta,Aashirvaad,470.78,297.92,ml,False
+PROD000153,Haldiram Natural Namkeen 153,Snacks,Namkeen,Haldiram,610.09,355.36,kg,True
+PROD000154,Coca-cola Classic Soft Drinks 154,Beverages,Soft Drinks,Coca-cola,924.04,778.84,gram,True
+PROD000155,India Gate Family Rice 155,Grocery,Rice,India Gate,1093.26,721.76,litre,True
+PROD000156,Lays Daily Chips 156,Snacks,Chips,Lays,1620.63,967.61,litre,True
+PROD000157,Fresho Value Fresh Vegetables 157,Vegetables,Fresh Vegetables,Fresho,704.36,449.04,piece,True
+PROD000158,Aashirvaad Original Atta 158,Grocery,Atta,Aashirvaad,277.15,200.22,kg,False
+PROD000159,Amul Classic Milk 159,Dairy,Milk,Amul,779.57,635.84,piece,True
+PROD000160,Mother Dairy Fresh Curd 160,Dairy,Curd,Mother Dairy,1541.04,1105.57,gram,True
+PROD000161,Harpic Classic Cleaning 161,Household,Cleaning,Harpic,851.32,707.36,kg,True
+PROD000162,Haldiram Organic Namkeen 162,Snacks,Namkeen,Haldiram,646.19,528.86,piece,False
+PROD000163,Haldiram Premium Namkeen 163,Snacks,Namkeen,Haldiram,1048.42,666.87,kg,True
+PROD000164,Dove Family Shampoo 164,Personal Care,Shampoo,Dove,1683.07,1077.21,gram,True
+PROD000165,Harpic Natural Cleaning 165,Household,Cleaning,Harpic,899.26,562.2,piece,True
+PROD000166,Real Daily Juice 166,Beverages,Juice,Real,676.82,520.32,piece,False
+PROD000167,Parle Special Biscuits 167,Snacks,Biscuits,Parle,487.91,350.58,pack,True
+PROD000168,Monginis Special Cakes 168,Bakery,Cakes,Monginis,1685.85,1395.71,kg,True
+PROD000169,Dove Natural Shampoo 169,Personal Care,Shampoo,Dove,119.03,69.23,pack,True
+PROD000170,Coca-cola Classic Soft Drinks 170,Beverages,Soft Drinks,Coca-cola,1482.03,1014.13,kg,True
+PROD000171,Amul Fresh Milk 171,Dairy,Milk,Amul,753.34,508.78,kg,True
+PROD000172,Lays Special Chips 172,Snacks,Chips,Lays,890.12,649.55,litre,False
+PROD000173,Dove Premium Shampoo 173,Personal Care,Shampoo,Dove,1236.53,859.42,kg,False
+PROD000174,Amul Daily Milk 174,Dairy,Milk,Amul,1786.9,996.44,kg,True
+PROD000175,Parle Daily Biscuits 175,Snacks,Biscuits,Parle,213.22,145.56,gram,True
+PROD000176,Coca-cola Natural Soft Drinks 176,Beverages,Soft Drinks,Coca-cola,1367.22,1055.26,kg,False
+PROD000177,Fresho Classic Fresh Vegetables 177,Vegetables,Fresh Vegetables,Fresho,1474.93,1141.54,piece,False
+PROD000178,Aashirvaad Value Atta 178,Grocery,Atta,Aashirvaad,1545.29,1139.66,gram,True
+PROD000179,Britannia Premium Bread 179,Bakery,Bread,Britannia,1908.69,1213.95,piece,True
+PROD000180,Real Natural Juice 180,Beverages,Juice,Real,1073.73,889.68,ml,False
+PROD000181,Mother Dairy Natural Curd 181,Dairy,Curd,Mother Dairy,1673.67,1250.9,piece,True
+PROD000182,Real Daily Juice 182,Beverages,Juice,Real,1532.8,907.66,kg,True
+PROD000183,Haldiram Special Namkeen 183,Snacks,Namkeen,Haldiram,676.33,450.03,pack,True
+PROD000184,India Gate Fresh Rice 184,Grocery,Rice,India Gate,414.04,348.56,ml,True
+PROD000185,Dove Classic Shampoo 185,Personal Care,Shampoo,Dove,672.51,380.16,piece,False
+PROD000186,Fresho Premium Fresh Vegetables 186,Vegetables,Fresh Vegetables,Fresho,1607.05,979.78,piece,True
+PROD000187,Dove Daily Shampoo 187,Personal Care,Shampoo,Dove,1405.54,976.56,litre,True
+PROD000188,Real Natural Juice 188,Beverages,Juice,Real,1574.54,1305.6,ml,True
+PROD000189,Fresho Special Fresh Vegetables 189,Vegetables,Fresh Vegetables,Fresho,694.55,504.03,piece,True
+PROD000190,Lux Special Soap 190,Personal Care,Soap,Lux,1853.81,1526.7,litre,False
+PROD000191,Dove Family Shampoo 191,Personal Care,Shampoo,Dove,840.85,666.34,kg,False
+PROD000192,Amul Natural Milk 192,Dairy,Milk,Amul,1454.19,844.96,piece,False
+PROD000193,Mother Dairy Classic Curd 193,Dairy,Curd,Mother Dairy,725.91,459.47,gram,True
+PROD000194,Red Bull Value Energy Drinks 194,Beverages,Energy Drinks,Red Bull,380.74,237.43,kg,False
+PROD000195,Monginis Daily Cakes 195,Bakery,Cakes,Monginis,1503.7,1163.88,gram,False
+PROD000196,Monginis Fresh Cakes 196,Bakery,Cakes,Monginis,115.33,93.96,ml,False
+PROD000197,Lays Premium Chips 197,Snacks,Chips,Lays,1624.45,994.33,ml,True
+PROD000198,Fresho Fresh Fresh Vegetables 198,Vegetables,Fresh Vegetables,Fresho,671.96,424.39,pack,True
+PROD000199,Harpic Family Cleaning 199,Household,Cleaning,Harpic,1867.36,1182.36,litre,False
+PROD000200,Amul Family Cheese 200,Dairy,Cheese,Amul,1297.77,917.08,ml,True
+PROD000201,Amul Premium Cheese 201,Dairy,Cheese,Amul,1619.73,1067.08,ml,True
+PROD000202,Lays Family Chips 202,Snacks,Chips,Lays,1880.81,1330.41,litre,True
+PROD000203,Coca-cola Family Soft Drinks 203,Beverages,Soft Drinks,Coca-cola,767.46,557.92,litre,True
+PROD000204,Dove Family Shampoo 204,Personal Care,Shampoo,Dove,111.88,72.1,litre,True
+PROD000205,Britannia Value Bread 205,Bakery,Bread,Britannia,1457.62,882.1,gram,True
+PROD000207,Aashirvaad Value Atta 207,Grocery,Atta,Aashirvaad,404.66,312.79,litre,True
+PROD000208,Surf Excel Fresh Laundry 208,Household,Laundry,Surf Excel,1469.04,1140.18,litre,True
+PROD000209,Real Organic Juice 209,Beverages,Juice,Real,1635.44,1222.89,piece,False
+PROD000210,Lux Original Soap 210,Personal Care,Soap,Lux,208.83,132.12,ml,True
+PROD000211,Monginis Family Cakes 211,Bakery,Cakes,Monginis,1714.34,1058.93,litre,False
+PROD000212,Britannia Special Bread 212,Bakery,Bread,Britannia,1617.38,960.59,pack,True
+PROD000213,Mother Dairy Organic Curd 213,Dairy,Curd,Mother Dairy,1254.42,1063.85,litre,True
+PROD000214,Lux Daily Soap 214,Personal Care,Soap,Lux,294.75,192.43,ml,True
+PROD000215,India Gate Premium Rice 215,Grocery,Rice,India Gate,1443.08,1202.01,piece,True
+PROD000216,Mother Dairy Fresh Curd 216,Dairy,Curd,Mother Dairy,1132.02,752.5,pack,True
+PROD000217,Mother Dairy Premium Curd 217,Dairy,Curd,Mother Dairy,355.52,197.52,pack,True
+PROD000218,Red Bull Natural Energy Drinks 218,Beverages,Energy Drinks,Red Bull,201.53,139.78,gram,True
+PROD000219,Harpic Premium Cleaning 219,Household,Cleaning,Harpic,1480.45,978.08,litre,True
+PROD000220,Dove Special Shampoo 220,Personal Care,Shampoo,Dove,1703.49,1011.23,pack,False
+PROD000221,India Gate Original Rice 221,Grocery,Rice,India Gate,1399.67,874.68,litre,True
+PROD000222,Monginis Family Cakes 222,Bakery,Cakes,Monginis,680.75,548.6,gram,True
+PROD000223,Aashirvaad Classic Atta 223,Grocery,Atta,Aashirvaad,1098.18,769.21,ml,True
+PROD000224,Dove Original Shampoo 224,Personal Care,Shampoo,Dove,1910.04,1405.21,ml,False
+PROD000225,Fortune Special Cooking Oil 225,Grocery,Cooking Oil,Fortune,829.14,663.94,ml,False
+PROD000226,Fresho Natural Fresh Vegetables 226,Vegetables,Fresh Vegetables,Fresho,153.9,103.41,litre,True
+PROD000227,Fresho Value Fresh Fruits 227,Fruits,Fresh Fruits,Fresho,1704.27,1250.27,litre,False
+PROD000228,Haldiram Natural Namkeen 228,Snacks,Namkeen,Haldiram,1550.97,1262.67,kg,True
+PROD000230,Fresho Premium Fresh Fruits 230,Fruits,Fresh Fruits,Fresho,151.09,121.4,pack,True
+PROD000231,Amul Fresh Milk 231,Dairy,Milk,Amul,950.23,632.64,invalid_unit,True
+PROD000233,Haldiram Value Namkeen 233,Snacks,Namkeen,Haldiram,763.99,488.98,gram,False
+PROD000234,Real Premium Juice 234,Beverages,Juice,Real,1992.86,1321.6,pack,True
+PROD000235,Monginis Organic Cakes 235,Bakery,Cakes,Monginis,558.28,440.21,pack,True
+PROD000236,India Gate Fresh Rice 236,Grocery,Rice,India Gate,1374.14,832.67,gram,False
+PROD000237,Britannia Special Bread 237,Bakery,Bread,Britannia,247.78,179.74,gram,True
+PROD000238,Aashirvaad Natural Atta 238,Grocery,Atta,Aashirvaad,458.99,300.13,litre,False
+PROD000239,Monginis Original Cakes 239,Bakery,Cakes,Monginis,458.87,290.8,pack,True
+PROD000241,Surf Excel Family Laundry 241,Household,Laundry,Surf Excel,951.24,768.3,gram,True
+PROD000242,Coca-cola Value Soft Drinks 242,Beverages,Soft Drinks,Coca-cola,688.68,451.78,piece,False
+PROD000243,Lays Family Chips 243,Snacks,Chips,Lays,242.93,135.51,litre,True
+PROD000245,Harpic Special Cleaning 245,Household,Cleaning,Harpic,1926.85,1326.8,piece,True
+PROD000246,Amul Organic Cheese 246,Dairy,Cheese,Amul,1725.58,1367.08,kg,True
+PROD000247,Mother Dairy Premium Curd 247,Dairy,Curd,Mother Dairy,159.17,134.24,piece,True
+PROD000248,Dove Daily Shampoo 248,Personal Care,Shampoo,Dove,1988.77,1595.3,kg,False
+PROD000249,Aashirvaad Special Atta 249,Grocery,Atta,Aashirvaad,428.84,344.87,ml,True
+PROD000250,Amul Special Milk 250,Dairy,Milk,Amul,1964.19,1607.86,litre,True
+PROD000251,Amul Family Milk 251,Dairy,Milk,Amul,1579.93,1001.17,litre,False
+PROD000252,India Gate Natural Rice 252,Grocery,Rice,India Gate,345.82,221.94,pack,True
+PROD000253,Lux Special Soap 253,Personal Care,Soap,Lux,1900.89,1580.8,litre,True
+PROD000254,Fresho Family Fresh Fruits 254,Fruits,Fresh Fruits,Fresho,1642.61,1122.21,gram,False
+PROD000256,Monginis Organic Cakes 256,Bakery,Cakes,Monginis,1338.42,1016.74,ml,True
+PROD000257,Haldiram Natural Namkeen 257,Snacks,Namkeen,Haldiram,1455.19,832.68,kg,True
+PROD000259,Parle Classic Biscuits 259,Snacks,Biscuits,Parle,747.82,584.46,piece,True
+PROD000260,Fortune Family Cooking Oil 260,Grocery,Cooking Oil,Fortune,1714.72,1247.53,litre,True
+PROD000261,Aashirvaad Original Atta 261,Grocery,Atta,Aashirvaad,1936.4,1206.99,litre,True
+PROD000262,Aashirvaad Special Atta 262,Grocery,Atta,Aashirvaad,1328.08,910.33,ml,True
+PROD000263,Real Original Juice 263,Beverages,Juice,Real,1458.27,1197.26,ml,True
+PROD000264,Britannia Fresh Bread 264,Bakery,Bread,Britannia,1540.94,918.72,kg,True
+PROD000265,Real Family Juice 265,Beverages,Juice,Real,110.47,74.4,gram,True
+PROD000266,Amul Organic Milk 266,Dairy,Milk,Amul,1595.36,934.09,ml,True
+PROD000267,Real Organic Juice 267,Beverages,Juice,Real,971.84,745.28,pack,True
+PROD000268,Fresho Organic Fresh Vegetables 268,Vegetables,Fresh Vegetables,Fresho,108.18,86.7,kg,False
+PROD000269,Real Special Juice 269,Beverages,Juice,Real,317.74,190.6,pack,False
+PROD000270,Parle Premium Biscuits 270,Snacks,Biscuits,Parle,852.56,480.71,pack,True
+PROD000271,Aashirvaad Value Atta 271,Grocery,Atta,Aashirvaad,965.9,690.17,kg,False
+PROD000272,Aashirvaad Original Atta 272,Grocery,Atta,Aashirvaad,1106.91,718.37,gram,True
+PROD000273,Coca-cola Original Soft Drinks 273,Beverages,Soft Drinks,Coca-cola,813.9,661.36,litre,True
+PROD000274,Fresho Family Fresh Vegetables 274,Vegetables,Fresh Vegetables,Fresho,1094.88,611.4,pack,False
+PROD000275,Real Fresh Juice 275,Beverages,Juice,Real,1311.52,1058.9,pack,True
+PROD000276,Aashirvaad Original Atta 276,Grocery,Atta,Aashirvaad,981.17,545.31,pack,False
+PROD000277,Surf Excel Natural Laundry 277,Household,Laundry,Surf Excel,1657.13,1138.66,pack,False
+PROD000278,Coca-cola Classic Soft Drinks 278,Beverages,Soft Drinks,Coca-cola,1554.66,1090.06,litre,False
+PROD000279,Mother Dairy Fresh Curd 279,Dairy,Curd,Mother Dairy,1165.57,826.42,kg,True
+PROD000280,Haldiram Classic Namkeen 280,Snacks,Namkeen,Haldiram,287.48,186.43,ml,True
+PROD000281,Dove Family Shampoo 281,Personal Care,Shampoo,Dove,710.45,428.8,ml,True
+PROD000282,Surf Excel Natural Laundry 282,Household,Laundry,Surf Excel,1054.62,581.76,piece,True
+PROD000283,Amul Fresh Milk 283,Dairy,Milk,Amul,1451.11,1018.93,pack,False
+PROD000284,Amul Original Cheese 284,Dairy,Cheese,Amul,1874.84,1119.14,litre,True
+PROD000285,Parle Fresh Biscuits 285,Snacks,Biscuits,Parle,994.8,660.38,litre,True
+PROD000286,Fresho Fresh Fresh Vegetables 286,Vegetables,Fresh Vegetables,Fresho,734.16,449.64,litre,False
+PROD000287,Fresho Fresh Fresh Vegetables 287,Vegetables,Fresh Vegetables,Fresho,1657.33,1264.72,piece,False
+PROD000288,Coca-cola Special Soft Drinks 288,Beverages,Soft Drinks,Coca-cola,1152.25,868.97,ml,True
+PROD000289,Haldiram Daily Namkeen 289,Snacks,Namkeen,Haldiram,1496.18,879.5,litre,True
+PROD000290,Fortune Family Cooking Oil 290,Grocery,Cooking Oil,Fortune,170.39,105.68,ml,True
+PROD000291,Parle Premium Biscuits 291,Snacks,Biscuits,Parle,1358.4,874.82,ml,True
+PROD000292,Fortune Organic Cooking Oil 292,Grocery,Cooking Oil,Fortune,314.37,257.83,ml,True
+PROD000293,India Gate Premium Rice 293,Grocery,Rice,India Gate,1719.6,1197.78,kg,True
+PROD000294,Red Bull Value Energy Drinks 294,Beverages,Energy Drinks,Red Bull,1465.1,1013.94,ml,False
+PROD000295,India Gate Daily Rice 295,Grocery,Rice,India Gate,194.66,126.79,kg,True
+PROD000296,Surf Excel Value Laundry 296,Household,Laundry,Surf Excel,1691.18,1402.7,ml,True
+PROD000297,Fortune Premium Cooking Oil 297,Grocery,Cooking Oil,Fortune,956.72,702.66,ml,False
+PROD000298,Fortune Premium Cooking Oil 298,Grocery,Cooking Oil,Fortune,477.5,287.01,kg,True
+PROD000299,Monginis Value Cakes 299,Bakery,Cakes,Monginis,1812.23,1524.31,gram,True
+PROD000300,Haldiram Natural Namkeen 300,Snacks,Namkeen,Haldiram,1046.01,776.06,piece,False
+PROD000301,Amul Special Milk 301,Dairy,Milk,Amul,419.37,250.33,kg,True
+PROD000302,Aashirvaad Premium Atta 302,Grocery,Atta,Aashirvaad,887.96,535.5,invalid_unit,True
+PROD000303,Real Fresh Juice 303,Beverages,Juice,Real,693.58,574.45,kg,True
+PROD000304,Aashirvaad Natural Atta 304,Grocery,Atta,Aashirvaad,1807.7,994.96,piece,True
+PROD000305,Red Bull Premium Energy Drinks 305,Beverages,Energy Drinks,Red Bull,1003.57,712.84,pack,False
+PROD000306,Surf Excel Family Laundry 306,Household,Laundry,Surf Excel,1653.58,1110.77,pack,True
+PROD000307,Red Bull Family Energy Drinks 307,Beverages,Energy Drinks,Red Bull,1141.22,792.75,kg,True
+PROD000308,Aashirvaad Premium Atta 308,Grocery,Atta,Aashirvaad,1150.06,958.5,litre,True
+PROD000309,Surf Excel Family Laundry 309,Household,Laundry,Surf Excel,685.15,515.99,kg,True
+PROD000310,Fresho Daily Fresh Fruits 310,Fruits,Fresh Fruits,Fresho,1433.0,814.22,piece,True
+PROD000311,Lux Classic Soap 311,Personal Care,Soap,Lux,1147.68,659.94,litre,True
+PROD000312,Coca-cola Premium Soft Drinks 312,Beverages,Soft Drinks,Coca-cola,402.55,322.83,litre,True
+PROD000313,Fortune Natural Cooking Oil 313,Grocery,Cooking Oil,Fortune,1039.66,597.14,ml,True
+PROD000314,Mother Dairy Daily Curd 314,Dairy,Curd,Mother Dairy,1690.33,1034.34,gram,True
+PROD000315,Britannia Value Bread 315,Bakery,Bread,Britannia,1615.32,1012.07,litre,True
+PROD000316,Mother Dairy Family Curd 316,Dairy,Curd,Mother Dairy,656.24,478.29,piece,True
+PROD000317,Real Fresh Juice 317,Beverages,Juice,Real,1712.05,1454.3,kg,True
+PROD000318,Haldiram Special Namkeen 318,Snacks,Namkeen,Haldiram,969.1,595.63,ml,True
+PROD000319,India Gate Premium Rice 319,Grocery,Rice,India Gate,1703.12,1033.59,piece,True
+PROD000321,Coca-cola Daily Soft Drinks 321,Beverages,Soft Drinks,Coca-cola,86.02,57.78,ml,False
+PROD000322,Britannia Daily Bread 322,Bakery,Bread,Britannia,1090.71,788.09,kg,False
+PROD000323,Aashirvaad Fresh Atta 323,Grocery,Atta,Aashirvaad,819.51,516.99,gram,True
+PROD000324,Haldiram Special Namkeen 324,Snacks,Namkeen,Haldiram,1661.89,1144.06,litre,True
+PROD000325,Haldiram Daily Namkeen 325,Snacks,Namkeen,Haldiram,1617.18,1093.17,litre,True
+PROD000326,Dove Daily Shampoo 326,Personal Care,Shampoo,Dove,1331.27,1127.23,gram,True
+PROD000327,Dove Family Shampoo 327,Personal Care,Shampoo,Dove,1550.89,867.5,ml,True
+PROD000328,Parle Daily Biscuits 328,Snacks,Biscuits,Parle,519.36,402.88,kg,True
+PROD000329,Haldiram Natural Namkeen 329,Snacks,Namkeen,Haldiram,991.34,776.48,kg,False
+PROD000330,Monginis Classic Cakes 330,Bakery,Cakes,Monginis,175.79,105.65,litre,True
+PROD000331,Fresho Natural Fresh Vegetables 331,Vegetables,Fresh Vegetables,Fresho,1863.51,1252.12,kg,True
+PROD000332,Coca-cola Special Soft Drinks 332,Beverages,Soft Drinks,Coca-cola,384.5,294.3,kg,True
+PROD000333,Parle Premium Biscuits 333,Snacks,Biscuits,Parle,702.11,495.6,litre,False
+PROD000334,Britannia Family Bread 334,Bakery,Bread,Britannia,281.53,210.51,litre,True
+PROD000335,Lux Premium Soap 335,Personal Care,Soap,Lux,588.62,488.2,litre,True
+PROD000336,Fresho Natural Fresh Vegetables 336,Vegetables,Fresh Vegetables,Fresho,773.22,492.86,pack,True
+PROD000337,Aashirvaad Fresh Atta 337,Grocery,Atta,Aashirvaad,1370.75,819.34,pack,True
+PROD000338,Britannia Special Bread 338,Bakery,Bread,Britannia,1821.51,1281.17,piece,True
+PROD000339,Haldiram Value Namkeen 339,Snacks,Namkeen,Haldiram,48.47,40.42,litre,False
+PROD000340,Surf Excel Original Laundry 340,Household,Laundry,Surf Excel,940.69,609.2,kg,True
+PROD000341,Surf Excel Original Laundry 341,Household,Laundry,Surf Excel,629.24,499.41,ml,True
+PROD000342,Lays Original Chips 342,Snacks,Chips,Lays,635.92,474.94,kg,True
+PROD000343,Dove Premium Shampoo 343,Personal Care,Shampoo,Dove,244.49,205.23,kg,True
+PROD000344,Harpic Special Cleaning 344,Household,Cleaning,Harpic,208.24,146.49,litre,False
+PROD000345,India Gate Family Rice 345,Grocery,Rice,India Gate,978.64,552.68,gram,False
+PROD000346,Mother Dairy Premium Curd 346,Dairy,Curd,Mother Dairy,791.5,482.96,litre,True
+PROD000347,Red Bull Family Energy Drinks 347,Beverages,Energy Drinks,Red Bull,1907.14,1213.54,piece,False
+PROD000348,Dove Special Shampoo 348,Personal Care,Shampoo,Dove,1118.93,918.02,kg,True
+PROD000349,Monginis Fresh Cakes 349,Bakery,Cakes,Monginis,1206.68,1001.76,gram,True
+PROD000350,Monginis Family Cakes 350,Bakery,Cakes,Monginis,941.86,736.4,kg,True
+PROD000351,Real Classic Juice 351,Beverages,Juice,Real,1723.09,949.22,piece,False
+PROD000352,Fresho Natural Fresh Fruits 352,Fruits,Fresh Fruits,Fresho,216.75,183.14,kg,True
+PROD000354,Fortune Fresh Cooking Oil 354,Grocery,Cooking Oil,Fortune,485.74,304.44,litre,True
+PROD000356,Haldiram Classic Namkeen 356,Snacks,Namkeen,Haldiram,1344.81,883.24,pack,True
+PROD000357,Lays Organic Chips 357,Snacks,Chips,Lays,1397.63,1071.14,gram,False
+PROD000358,Lux Original Soap 358,Personal Care,Soap,Lux,1224.0,789.47,piece,True
+PROD000359,Surf Excel Classic Laundry 359,Household,Laundry,Surf Excel,698.61,465.78,gram,True
+PROD000360,Dove Natural Shampoo 360,Personal Care,Shampoo,Dove,1795.28,1229.53,pack,True
+PROD000361,Aashirvaad Original Atta 361,Grocery,Atta,Aashirvaad,24.51,16.64,piece,True
+PROD000362,Surf Excel Fresh Laundry 362,Household,Laundry,Surf Excel,1453.51,1096.7,gram,True
+PROD000363,Lux Family Soap 363,Personal Care,Soap,Lux,1823.74,1037.67,litre,True
+PROD000364,Harpic Fresh Cleaning 364,Household,Cleaning,Harpic,625.77,465.09,litre,True
+PROD000365,Monginis Family Cakes 365,Bakery,Cakes,Monginis,228.18,192.69,ml,True
+PROD000366,Lays Organic Chips 366,Snacks,Chips,Lays,1682.71,1218.98,piece,True
+PROD000367,Dove Premium Shampoo 367,Personal Care,Shampoo,Dove,1261.81,824.8,pack,True
+PROD000368,Aashirvaad Family Atta 368,Grocery,Atta,Aashirvaad,1924.43,1394.02,kg,True
+PROD000369,Amul Premium Milk 369,Dairy,Milk,Amul,495.7,342.83,ml,True
+PROD000370,Britannia Value Bread 370,Bakery,Bread,Britannia,1907.73,1540.0,kg,True
+PROD000371,Real Natural Juice 371,Beverages,Juice,Real,826.13,610.17,piece,True
+PROD000372,Dove Special Shampoo 372,Personal Care,Shampoo,Dove,1365.52,1049.41,litre,False
+PROD000373,Coca-cola Family Soft Drinks 373,Beverages,Soft Drinks,Coca-cola,1280.76,994.58,litre,True
+PROD000374,Fresho Daily Fresh Vegetables 374,Vegetables,Fresh Vegetables,Fresho,208.35,126.54,ml,True
+PROD000375,Parle Classic Biscuits 375,Snacks,Biscuits,Parle,514.32,426.12,ml,True
+PROD000376,Amul Daily Cheese 376,Dairy,Cheese,Amul,1150.73,742.92,pack,True
+PROD000377,Lays Family Chips 377,Snacks,Chips,Lays,141.86,99.96,gram,True
+PROD000378,Dove Daily Shampoo 378,Personal Care,Shampoo,Dove,661.36,492.6,gram,True
+PROD000379,Monginis Special Cakes 379,Bakery,Cakes,Monginis,1121.61,719.45,pack,True
+PROD000380,Red Bull Family Energy Drinks 380,Beverages,Energy Drinks,Red Bull,896.21,757.42,ml,True
+PROD000381,Parle Natural Biscuits 381,Snacks,Biscuits,Parle,91.89,73.21,pack,True
+PROD000382,Amul Value Milk 382,Dairy,Milk,Amul,203.56,161.98,piece,False
+PROD000383,Dove Organic Shampoo 383,Personal Care,Shampoo,Dove,1550.4,1114.07,litre,True
+PROD000384,Haldiram Natural Namkeen 384,Snacks,Namkeen,Haldiram,1832.21,1038.13,gram,True
+PROD000386,Fresho Family Fresh Vegetables 386,Vegetables,Fresh Vegetables,Fresho,1095.04,908.29,kg,True
+PROD000387,India Gate Natural Rice 387,Grocery,Rice,India Gate,1955.97,1377.64,litre,True
+PROD000388,Lux Classic Soap 388,Personal Care,Soap,Lux,672.77,465.71,kg,True
+PROD000389,Britannia Daily Bread 389,Bakery,Bread,Britannia,1272.72,794.41,kg,True
+PROD000390,Monginis Family Cakes 390,Bakery,Cakes,Monginis,1743.27,1203.38,gram,True
+PROD000391,Real Original Juice 391,Beverages,Juice,Real,1142.28,762.1,piece,True
+PROD000392,Real Special Juice 392,Beverages,Juice,Real,1541.69,1278.29,litre,False
+PROD000393,Lays Classic Chips 393,Snacks,Chips,Lays,1029.96,690.47,litre,True
+PROD000394,Mother Dairy Value Curd 394,Dairy,Curd,Mother Dairy,1227.68,866.21,piece,True
+PROD000395,Parle Natural Biscuits 395,Snacks,Biscuits,Parle,1335.82,896.72,pack,True
+PROD000396,Haldiram Organic Namkeen 396,Snacks,Namkeen,Haldiram,1595.04,1280.01,gram,True
+PROD000397,Haldiram Special Namkeen 397,Snacks,Namkeen,Haldiram,1025.3,756.7,litre,False
+PROD000398,Dove Classic Shampoo 398,Personal Care,Shampoo,Dove,731.37,482.59,gram,True
+PROD000399,Surf Excel Fresh Laundry 399,Household,Laundry,Surf Excel,134.07,81.37,litre,True
+PROD000400,Real Daily Juice 400,Beverages,Juice,Real,990.73,779.77,gram,True
+PROD000401,Dove Family Shampoo 401,Personal Care,Shampoo,Dove,1586.31,1074.95,litre,True
+PROD000402,Parle Family Biscuits 402,Snacks,Biscuits,Parle,1774.95,1081.69,litre,False
+PROD000403,Mother Dairy Classic Curd 403,Dairy,Curd,Mother Dairy,1968.73,1173.73,litre,True
+PROD000404,Fresho Natural Fresh Fruits 404,Fruits,Fresh Fruits,Fresho,459.14,328.86,kg,False
+PROD000405,Amul Natural Cheese 405,Dairy,Cheese,Amul,1831.55,1462.99,gram,True
+PROD000406,Real Fresh Juice 406,Beverages,Juice,Real,241.83,173.78,piece,True
+PROD000407,Fresho Special Fresh Vegetables 407,Vegetables,Fresh Vegetables,Fresho,1583.02,1018.93,ml,True
+PROD000408,Amul Original Cheese 408,Dairy,Cheese,Amul,1461.9,960.97,litre,False
+PROD000410,Britannia Fresh Bread 410,Bakery,Bread,Britannia,468.12,341.22,pack,True
+PROD000411,Fresho Fresh Fresh Vegetables 411,Vegetables,Fresh Vegetables,Fresho,519.06,320.83,gram,False
+PROD000412,Britannia Original Bread 412,Bakery,Bread,Britannia,1838.7,1126.09,kg,True
+PROD000413,Monginis Organic Cakes 413,Bakery,Cakes,Monginis,1637.12,1024.36,ml,True
+PROD000414,Fortune Original Cooking Oil 414,Grocery,Cooking Oil,Fortune,1430.38,1037.12,litre,True
+PROD000415,Monginis Daily Cakes 415,Bakery,Cakes,Monginis,412.62,234.33,gram,True
+PROD000416,Coca-cola Fresh Soft Drinks 416,Beverages,Soft Drinks,Coca-cola,577.66,326.12,ml,False
+PROD000417,Amul Special Milk 417,Dairy,Milk,Amul,188.4,143.49,kg,True
+PROD000418,Amul Organic Milk 418,Dairy,Milk,Amul,1147.86,647.79,piece,True
+PROD000419,Real Daily Juice 419,Beverages,Juice,Real,1300.76,770.39,piece,True
+PROD000420,Harpic Special Cleaning 420,Household,Cleaning,Harpic,1071.28,662.92,litre,True
+PROD000421,Haldiram Organic Namkeen 421,Snacks,Namkeen,Haldiram,1526.39,1173.46,kg,True
+PROD000422,India Gate Classic Rice 422,Grocery,Rice,India Gate,705.83,403.17,gram,True
+PROD000423,Red Bull Family Energy Drinks 423,Beverages,Energy Drinks,Red Bull,1473.9,1149.58,piece,False
+PROD000424,Amul Value Cheese 424,Dairy,Cheese,Amul,515.03,409.26,piece,True
+PROD000425,Mother Dairy Original Curd 425,Dairy,Curd,Mother Dairy,1302.14,1014.93,kg,False
+PROD000426,Lux Premium Soap 426,Personal Care,Soap,Lux,52.82,40.46,pack,False
+PROD000427,Harpic Value Cleaning 427,Household,Cleaning,Harpic,1315.57,1062.18,gram,True
+PROD000428,Fresho Family Fresh Vegetables 428,Vegetables,Fresh Vegetables,Fresho,270.34,159.64,pack,True
+PROD000429,Lux Organic Soap 429,Personal Care,Soap,Lux,1932.94,1383.61,piece,False
+PROD000430,Lays Premium Chips 430,Snacks,Chips,Lays,1341.91,1064.23,ml,True
+PROD000431,Surf Excel Daily Laundry 431,Household,Laundry,Surf Excel,922.48,701.8,litre,True
+PROD000432,Britannia Fresh Bread 432,Bakery,Bread,Britannia,976.62,600.91,gram,True
+PROD000433,Dove Original Shampoo 433,Personal Care,Shampoo,Dove,46.29,36.7,kg,True
+PROD000434,Real Organic Juice 434,Beverages,Juice,Real,158.49,127.97,gram,True
+PROD000435,Fresho Fresh Fresh Vegetables 435,Vegetables,Fresh Vegetables,Fresho,1329.27,792.96,piece,False
+PROD000436,Fresho Premium Fresh Fruits 436,Fruits,Fresh Fruits,Fresho,1583.13,1265.22,litre,True
+PROD000437,Lays Value Chips 437,Snacks,Chips,Lays,671.67,470.21,piece,False
+PROD000438,Aashirvaad Classic Atta 438,Grocery,Atta,Aashirvaad,1343.37,875.02,piece,False
+PROD000439,Mother Dairy Value Curd 439,Dairy,Curd,Mother Dairy,972.13,628.06,litre,True
+PROD000440,Aashirvaad Daily Atta 440,Grocery,Atta,Aashirvaad,1301.48,782.28,kg,True
+PROD000441,Aashirvaad Organic Atta 441,Grocery,Atta,Aashirvaad,993.74,623.65,ml,False
+PROD000442,Amul Classic Milk 442,Dairy,Milk,Amul,508.52,413.48,kg,True
+PROD000443,Britannia Premium Bread 443,Bakery,Bread,Britannia,1944.96,1131.57,kg,True
+PROD000444,Aashirvaad Classic Atta 444,Grocery,Atta,Aashirvaad,561.6,326.7,piece,True
+PROD000445,Fresho Organic Fresh Fruits 445,Fruits,Fresh Fruits,Fresho,1252.77,834.11,piece,True
+PROD000446,Aashirvaad Family Atta 446,Grocery,Atta,Aashirvaad,346.11,290.26,ml,True
+PROD000447,Fresho Value Fresh Vegetables 447,Vegetables,Fresh Vegetables,Fresho,1121.04,747.47,pack,True
+PROD000448,Aashirvaad Daily Atta 448,Grocery,Atta,Aashirvaad,1407.69,905.01,gram,False
+PROD000449,Surf Excel Organic Laundry 449,Household,Laundry,Surf Excel,1048.34,809.59,ml,True
+PROD000450,India Gate Special Rice 450,Grocery,Rice,India Gate,37.84,26.06,gram,False
+PROD000451,Coca-cola Original Soft Drinks 451,Beverages,Soft Drinks,Coca-cola,1270.41,790.91,litre,True
+PROD000453,Surf Excel Organic Laundry 453,Household,Laundry,Surf Excel,571.15,379.33,ml,False
+PROD000454,Haldiram Daily Namkeen 454,Snacks,Namkeen,Haldiram,1122.66,839.72,piece,True
+PROD000455,Fresho Daily Fresh Vegetables 455,Vegetables,Fresh Vegetables,Fresho,1612.6,1318.12,pack,True
+PROD000456,Mother Dairy Classic Curd 456,Dairy,Curd,Mother Dairy,1452.34,1088.72,gram,True
+PROD000457,Haldiram Daily Namkeen 457,Snacks,Namkeen,Haldiram,1132.69,832.73,piece,True
+PROD000458,Aashirvaad Special Atta 458,Grocery,Atta,Aashirvaad,1421.32,1114.55,gram,True
+PROD000459,Fresho Special Fresh Vegetables 459,Vegetables,Fresh Vegetables,Fresho,940.49,732.55,litre,False
+PROD000460,Amul Daily Cheese 460,Dairy,Cheese,Amul,755.38,513.18,gram,False
+PROD000461,Haldiram Value Namkeen 461,Snacks,Namkeen,Haldiram,491.35,349.27,litre,True
+PROD000462,Lays Value Chips 462,Snacks,Chips,Lays,1970.86,1198.88,kg,True
+PROD000463,Mother Dairy Premium Curd 463,Dairy,Curd,Mother Dairy,545.29,342.6,gram,True
+PROD000464,Mother Dairy Original Curd 464,Dairy,Curd,Mother Dairy,118.61,74.45,pack,True
+PROD000465,Harpic Original Cleaning 465,Household,Cleaning,Harpic,1934.53,1422.9,ml,True
+PROD000467,Aashirvaad Natural Atta 467,Grocery,Atta,Aashirvaad,1530.02,1071.7,ml,True
+PROD000468,Amul Daily Cheese 468,Dairy,Cheese,Amul,343.43,289.42,piece,True
+PROD000469,Harpic Value Cleaning 469,Household,Cleaning,Harpic,1698.72,1330.49,pack,True
+PROD000470,Coca-cola Classic Soft Drinks 470,Beverages,Soft Drinks,Coca-cola,1093.43,894.87,litre,True
+PROD000471,Coca-cola Family Soft Drinks 471,Beverages,Soft Drinks,Coca-cola,36.36,28.36,kg,True
+PROD000472,Parle Organic Biscuits 472,Snacks,Biscuits,Parle,1078.21,692.93,piece,False
+PROD000473,Surf Excel Family Laundry 473,Household,Laundry,Surf Excel,1256.53,857.14,gram,False
+PROD000474,Red Bull Original Energy Drinks 474,Beverages,Energy Drinks,Red Bull,547.59,403.81,gram,True
+PROD000475,Lux Original Soap 475,Personal Care,Soap,Lux,459.27,324.41,ml,True
+PROD000476,Surf Excel Fresh Laundry 476,Household,Laundry,Surf Excel,143.61,90.7,piece,True
+PROD000477,Surf Excel Value Laundry 477,Household,Laundry,Surf Excel,1881.7,1343.51,gram,True
+PROD000478,Parle Fresh Biscuits 478,Snacks,Biscuits,Parle,258.62,148.93,ml,True
+PROD000479,Harpic Organic Cleaning 479,Household,Cleaning,Harpic,1336.02,944.44,ml,False
+PROD000480,Amul Fresh Milk 480,Dairy,Milk,Amul,1162.46,734.76,ml,True
+PROD000481,Fresho Daily Fresh Fruits 481,Fruits,Fresh Fruits,Fresho,37.53,30.9,piece,True
+PROD000482,Haldiram Family Namkeen 482,Snacks,Namkeen,Haldiram,67.97,50.0,pack,True
+PROD000483,Real Family Juice 483,Beverages,Juice,Real,410.55,334.89,kg,True
+PROD000484,Monginis Natural Cakes 484,Bakery,Cakes,Monginis,1126.22,753.36,gram,True
+PROD000485,Mother Dairy Family Curd 485,Dairy,Curd,Mother Dairy,1471.56,839.37,kg,True
+PROD000486,Britannia Family Bread 486,Bakery,Bread,Britannia,1811.92,1039.89,ml,False
+PROD000487,Fresho Organic Fresh Fruits 487,Fruits,Fresh Fruits,Fresho,189.48,146.07,kg,False
+PROD000488,Amul Fresh Cheese 488,Dairy,Cheese,Amul,1177.43,765.43,piece,False
+PROD000489,Dove Original Shampoo 489,Personal Care,Shampoo,Dove,1057.62,656.29,kg,True
+PROD000490,Real Special Juice 490,Beverages,Juice,Real,912.63,603.54,ml,True
+PROD000491,Fresho Original Fresh Vegetables 491,Vegetables,Fresh Vegetables,Fresho,1941.41,1480.5,piece,True
+PROD000492,Monginis Value Cakes 492,Bakery,Cakes,Monginis,1236.29,989.94,pack,False
+PROD000493,Fresho Natural Fresh Vegetables 493,Vegetables,Fresh Vegetables,Fresho,1787.18,1471.67,piece,False
+PROD000494,Amul Fresh Milk 494,Dairy,Milk,Amul,1172.96,738.71,gram,False
+PROD000495,Surf Excel Fresh Laundry 495,Household,Laundry,Surf Excel,1880.69,1367.42,pack,True
+PROD000496,Red Bull Daily Energy Drinks 496,Beverages,Energy Drinks,Red Bull,1582.61,960.21,ml,True
+PROD000497,Lux Classic Soap 497,Personal Care,Soap,Lux,584.36,357.01,litre,False
+PROD000498,Parle Value Biscuits 498,Snacks,Biscuits,Parle,947.93,805.34,kg,True
+PROD000499,Parle Fresh Biscuits 499,Snacks,Biscuits,Parle,1314.38,896.67,pack,True
+PROD000500,Britannia Special Bread 500,Bakery,Bread,Britannia,1658.19,1257.33,gram,False
+PROD000501,Lux Daily Soap 501,Personal Care,Soap,Lux,1531.56,1102.57,ml,True
+PROD000502,India Gate Original Rice 502,Grocery,Rice,India Gate,1114.34,889.24,litre,False
+PROD000503,Amul Organic Milk 503,Dairy,Milk,Amul,910.47,587.03,pack,True
+PROD000504,Haldiram Classic Namkeen 504,Snacks,Namkeen,Haldiram,1334.01,891.44,litre,False
+PROD000505,Real Organic Juice 505,Beverages,Juice,Real,1818.91,1166.69,pack,False
+PROD000506,Mother Dairy Family Curd 506,Dairy,Curd,Mother Dairy,1779.23,1106.97,gram,True
+PROD000507,Monginis Special Cakes 507,Bakery,Cakes,Monginis,453.88,353.99,gram,True
+PROD000508,Britannia Daily Bread 508,Bakery,Bread,Britannia,374.26,288.7,piece,True
+PROD000509,Aashirvaad Fresh Atta 509,Grocery,Atta,Aashirvaad,1729.9,1353.88,litre,False
+PROD000510,Coca-cola Fresh Soft Drinks 510,Beverages,Soft Drinks,Coca-cola,1911.04,1052.37,litre,True
+PROD000511,Britannia Original Bread 511,Bakery,Bread,Britannia,1117.8,715.87,pack,True
+PROD000512,Aashirvaad Premium Atta 512,Grocery,Atta,Aashirvaad,995.46,623.63,kg,False
+PROD000513,Coca-cola Daily Soft Drinks 513,Beverages,Soft Drinks,Coca-cola,571.93,327.55,ml,True
+PROD000514,Mother Dairy Natural Curd 514,Dairy,Curd,Mother Dairy,1341.1,1104.79,piece,True
+PROD000515,Fresho Organic Fresh Fruits 515,Fruits,Fresh Fruits,Fresho,254.17,150.24,pack,True
+PROD000516,Dove Premium Shampoo 516,Personal Care,Shampoo,Dove,86.9,53.58,pack,True
+PROD000517,Amul Value Milk 517,Dairy,Milk,Amul,1632.83,993.74,litre,False
+PROD000518,Amul Natural Milk 518,Dairy,Milk,Amul,1817.5,1229.48,ml,True
+PROD000519,India Gate Value Rice 519,Grocery,Rice,India Gate,1724.09,1442.82,kg,True
+PROD000520,Mother Dairy Daily Curd 520,Dairy,Curd,Mother Dairy,1628.93,905.49,pack,True
+PROD000521,Dove Organic Shampoo 521,Personal Care,Shampoo,Dove,1779.98,1056.93,invalid_unit,False
+PROD000522,Real Natural Juice 522,Beverages,Juice,Real,583.17,353.91,piece,True
+PROD000523,Haldiram Daily Namkeen 523,Snacks,Namkeen,Haldiram,1876.38,1284.68,pack,True
+PROD000524,Britannia Value Bread 524,Bakery,Bread,Britannia,1514.44,906.22,litre,True
+PROD000525,Britannia Daily Bread 525,Bakery,Bread,Britannia,75.66,57.48,ml,True
+PROD000526,Red Bull Organic Energy Drinks 526,Beverages,Energy Drinks,Red Bull,918.99,517.35,gram,True
+PROD000527,Fresho Special Fresh Vegetables 527,Vegetables,Fresh Vegetables,Fresho,1191.12,842.56,kg,True
+PROD000528,Amul Family Milk 528,Dairy,Milk,Amul,1658.76,1220.07,piece,True
+PROD000529,Fresho Natural Fresh Fruits 529,Fruits,Fresh Fruits,Fresho,164.55,91.46,piece,False
+PROD000530,Coca-cola Organic Soft Drinks 530,Beverages,Soft Drinks,Coca-cola,1004.03,844.76,kg,True
+PROD000531,Monginis Daily Cakes 531,Bakery,Cakes,Monginis,1279.42,931.58,litre,True
+PROD000532,Red Bull Daily Energy Drinks 532,Beverages,Energy Drinks,Red Bull,1968.96,1239.11,ml,True
+PROD000534,Fresho Fresh Fresh Fruits 534,Fruits,Fresh Fruits,Fresho,192.43,152.47,litre,True
+PROD000535,Fresho Family Fresh Vegetables 535,Vegetables,Fresh Vegetables,Fresho,1910.09,1182.88,litre,True
+PROD000536,Fresho Classic Fresh Fruits 536,Fruits,Fresh Fruits,Fresho,1138.43,894.88,piece,False
+PROD000537,Fortune Value Cooking Oil 537,Grocery,Cooking Oil,Fortune,330.81,240.61,litre,True
+PROD000538,Fresho Family Fresh Fruits 538,Fruits,Fresh Fruits,Fresho,998.82,594.99,ml,True
+PROD000539,Dove Value Shampoo 539,Personal Care,Shampoo,Dove,65.26,37.22,litre,False
+PROD000540,Britannia Classic Bread 540,Bakery,Bread,Britannia,1394.69,786.07,gram,True
+PROD000541,Lays Premium Chips 541,Snacks,Chips,Lays,1604.14,945.59,pack,False
+PROD000542,Real Classic Juice 542,Beverages,Juice,Real,1948.15,1598.51,litre,True
+PROD000543,Mother Dairy Value Curd 543,Dairy,Curd,Mother Dairy,1488.55,846.75,gram,True
+PROD000544,Surf Excel Value Laundry 544,Household,Laundry,Surf Excel,1449.45,876.67,kg,True
+PROD000545,Mother Dairy Family Curd 545,Dairy,Curd,Mother Dairy,974.67,740.2,piece,True
+PROD000546,Fortune Classic Cooking Oil 546,Grocery,Cooking Oil,Fortune,1456.92,836.73,kg,True
+PROD000547,Surf Excel Premium Laundry 547,Household,Laundry,Surf Excel,1364.19,992.19,ml,True
+PROD000549,Amul Fresh Cheese 549,Dairy,Cheese,Amul,666.79,526.7,ml,True
+PROD000550,Harpic Organic Cleaning 550,Household,Cleaning,Harpic,878.13,509.48,litre,False
+PROD000551,Harpic Family Cleaning 551,Household,Cleaning,Harpic,183.06,155.22,ml,True
+PROD000552,Red Bull Value Energy Drinks 552,Beverages,Energy Drinks,Red Bull,484.48,305.31,ml,True
+PROD000554,Amul Daily Milk 554,Dairy,Milk,Amul,182.51,119.02,ml,False
+PROD000555,Real Family Juice 555,Beverages,Juice,Real,571.8,362.12,litre,True
+PROD000556,Britannia Premium Bread 556,Bakery,Bread,Britannia,1042.21,714.62,piece,True
+PROD000557,Fortune Family Cooking Oil 557,Grocery,Cooking Oil,Fortune,1059.32,866.11,kg,True
+PROD000558,Lays Daily Chips 558,Snacks,Chips,Lays,705.48,438.56,piece,True
+PROD000559,Parle Original Biscuits 559,Snacks,Biscuits,Parle,1993.67,1332.0,kg,True
+PROD000560,Red Bull Special Energy Drinks 560,Beverages,Energy Drinks,Red Bull,939.64,753.78,gram,True
+PROD000561,Fortune Classic Cooking Oil 561,Grocery,Cooking Oil,Fortune,150.34,115.28,piece,True
+PROD000562,Aashirvaad Original Atta 562,Grocery,Atta,Aashirvaad,1740.57,1146.17,piece,True
+PROD000563,Parle Organic Biscuits 563,Snacks,Biscuits,Parle,1686.74,1358.99,litre,True
+PROD000564,Haldiram Organic Namkeen 564,Snacks,Namkeen,Haldiram,1038.45,706.03,kg,True
+PROD000565,Fortune Organic Cooking Oil 565,Grocery,Cooking Oil,Fortune,1313.98,1084.17,piece,True
+PROD000566,Amul Organic Milk 566,Dairy,Milk,Amul,1630.94,1129.93,litre,True
+PROD000567,Parle Original Biscuits 567,Snacks,Biscuits,Parle,192.83,148.54,kg,True
+PROD000568,Red Bull Original Energy Drinks 568,Beverages,Energy Drinks,Red Bull,1958.45,1536.21,pack,True
+PROD000569,Parle Fresh Biscuits 569,Snacks,Biscuits,Parle,1078.41,845.8,ml,False
+PROD000570,Amul Daily Milk 570,Dairy,Milk,Amul,1438.89,849.3,litre,True
+PROD000571,Amul Natural Cheese 571,Dairy,Cheese,Amul,1445.72,1176.89,kg,False
+PROD000572,Coca-cola Natural Soft Drinks 572,Beverages,Soft Drinks,Coca-cola,228.38,150.06,litre,True
+PROD000573,Surf Excel Organic Laundry 573,Household,Laundry,Surf Excel,541.62,416.32,ml,False
+PROD000574,Amul Original Milk 574,Dairy,Milk,Amul,132.67,105.21,ml,False
+PROD000575,Monginis Value Cakes 575,Bakery,Cakes,Monginis,183.16,135.28,litre,True
+PROD000576,Surf Excel Premium Laundry 576,Household,Laundry,Surf Excel,1473.75,859.19,pack,True
+PROD000577,Monginis Classic Cakes 577,Bakery,Cakes,Monginis,190.11,133.97,ml,False
+PROD000578,Lux Family Soap 578,Personal Care,Soap,Lux,1797.94,1271.06,piece,True
+PROD000579,Fresho Fresh Fresh Vegetables 579,Vegetables,Fresh Vegetables,Fresho,1472.09,1092.35,invalid_unit,True
+PROD000581,Amul Natural Milk 581,Dairy,Milk,Amul,334.82,279.26,ml,False
+PROD000582,India Gate Family Rice 582,Grocery,Rice,India Gate,1452.78,1010.08,litre,True
+PROD000583,Surf Excel Organic Laundry 583,Household,Laundry,Surf Excel,1297.27,1025.5,piece,False
+PROD000584,Fortune Natural Cooking Oil 584,Grocery,Cooking Oil,Fortune,1234.79,706.16,litre,True
+PROD000585,Mother Dairy Natural Curd 585,Dairy,Curd,Mother Dairy,1954.44,1453.2,ml,True
+PROD000586,Fortune Family Cooking Oil 586,Grocery,Cooking Oil,Fortune,1240.84,684.08,kg,True
+PROD000587,Coca-cola Organic Soft Drinks 587,Beverages,Soft Drinks,Coca-cola,902.9,609.05,piece,True
+PROD000588,Parle Original Biscuits 588,Snacks,Biscuits,Parle,1180.33,916.44,ml,True
+PROD000589,Aashirvaad Daily Atta 589,Grocery,Atta,Aashirvaad,267.76,174.0,piece,False
+PROD000590,Coca-cola Daily Soft Drinks 590,Beverages,Soft Drinks,Coca-cola,132.73,106.87,ml,False
+PROD000591,Amul Premium Milk 591,Dairy,Milk,Amul,68.8,57.07,litre,True
+PROD000592,Fresho Organic Fresh Fruits 592,Fruits,Fresh Fruits,Fresho,1901.57,1281.57,kg,False
+PROD000593,Britannia Daily Bread 593,Bakery,Bread,Britannia,1698.26,1222.63,ml,True
+PROD000594,Amul Fresh Milk 594,Dairy,Milk,Amul,1105.93,731.29,kg,True
+PROD000595,Amul Fresh Milk 595,Dairy,Milk,Amul,769.14,524.64,piece,False
+PROD000596,India Gate Natural Rice 596,Grocery,Rice,India Gate,203.67,153.06,pack,False
+PROD000597,Monginis Family Cakes 597,Bakery,Cakes,Monginis,1624.49,1199.8,gram,True
+PROD000598,Dove Value Shampoo 598,Personal Care,Shampoo,Dove,724.21,575.44,piece,False
+PROD000599,Surf Excel Special Laundry 599,Household,Laundry,Surf Excel,108.08,79.39,ml,True
+PROD000600,Fortune Original Cooking Oil 600,Grocery,Cooking Oil,Fortune,654.83,390.26,piece,False
+PROD000601,Fortune Original Cooking Oil 601,Grocery,Cooking Oil,Fortune,1713.59,1048.46,litre,True
+PROD000602,Amul Fresh Milk 602,Dairy,Milk,Amul,1281.86,997.45,litre,True
+PROD000603,Amul Daily Milk 603,Dairy,Milk,Amul,1435.08,1206.91,kg,True
+PROD000604,Aashirvaad Value Atta 604,Grocery,Atta,Aashirvaad,1648.43,1280.6,litre,True
+PROD000605,Coca-cola Family Soft Drinks 605,Beverages,Soft Drinks,Coca-cola,161.73,93.41,litre,True
+PROD000606,Aashirvaad Original Atta 606,Grocery,Atta,Aashirvaad,282.63,196.12,pack,True
+PROD000607,Britannia Special Bread 607,Bakery,Bread,Britannia,395.36,323.79,ml,True
+PROD000608,Britannia Value Bread 608,Bakery,Bread,Britannia,243.35,192.57,kg,True
+PROD000609,India Gate Special Rice 609,Grocery,Rice,India Gate,1503.95,1266.01,ml,False
+PROD000610,Parle Daily Biscuits 610,Snacks,Biscuits,Parle,1467.43,1066.76,kg,True
+PROD000611,Harpic Value Cleaning 611,Household,Cleaning,Harpic,1158.24,896.82,litre,True
+PROD000612,Real Value Juice 612,Beverages,Juice,Real,342.38,274.47,invalid_unit,True
+PROD000613,Monginis Premium Cakes 613,Bakery,Cakes,Monginis,1044.72,645.84,litre,True
+PROD000614,Surf Excel Fresh Laundry 614,Household,Laundry,Surf Excel,1713.84,1222.71,litre,True
+PROD000616,Mother Dairy Classic Curd 616,Dairy,Curd,Mother Dairy,1536.77,868.96,piece,True
+PROD000617,Fresho Natural Fresh Fruits 617,Fruits,Fresh Fruits,Fresho,1693.39,1288.54,kg,True
+PROD000618,Fresho Family Fresh Fruits 618,Fruits,Fresh Fruits,Fresho,356.81,213.27,litre,True
+PROD000619,Real Premium Juice 619,Beverages,Juice,Real,545.99,301.61,litre,True
+PROD000620,Haldiram Original Namkeen 620,Snacks,Namkeen,Haldiram,1965.89,1525.49,kg,True
+PROD000621,Monginis Original Cakes 621,Bakery,Cakes,Monginis,1159.94,748.85,litre,True
+PROD000622,Haldiram Organic Namkeen 622,Snacks,Namkeen,Haldiram,776.82,626.93,gram,False
+PROD000623,Dove Classic Shampoo 623,Personal Care,Shampoo,Dove,844.72,713.95,piece,False
+PROD000624,Lays Fresh Chips 624,Snacks,Chips,Lays,1894.77,1306.53,gram,False
+PROD000625,Monginis Fresh Cakes 625,Bakery,Cakes,Monginis,722.46,472.1,ml,True
+PROD000626,India Gate Value Rice 626,Grocery,Rice,India Gate,1149.47,928.11,piece,False
+PROD000627,Mother Dairy Family Curd 627,Dairy,Curd,Mother Dairy,625.78,420.02,kg,False
+PROD000628,India Gate Organic Rice 628,Grocery,Rice,India Gate,760.55,638.48,kg,True
+PROD000629,Britannia Special Bread 629,Bakery,Bread,Britannia,1312.67,985.93,pack,False
+PROD000630,Amul Family Cheese 630,Dairy,Cheese,Amul,1481.82,874.57,ml,False
+PROD000631,Fresho Natural Fresh Fruits 631,Fruits,Fresh Fruits,Fresho,427.41,327.8,ml,False
+PROD000632,Britannia Special Bread 632,Bakery,Bread,Britannia,544.98,425.68,litre,True
+PROD000633,Amul Original Cheese 633,Dairy,Cheese,Amul,1758.05,1159.68,ml,True
+PROD000634,Fresho Value Fresh Fruits 634,Fruits,Fresh Fruits,Fresho,1950.02,1603.16,ml,True
+PROD000635,Haldiram Organic Namkeen 635,Snacks,Namkeen,Haldiram,1035.55,849.12,pack,True
+PROD000636,Fortune Special Cooking Oil 636,Grocery,Cooking Oil,Fortune,1770.33,1213.46,pack,True
+PROD000637,Dove Fresh Shampoo 637,Personal Care,Shampoo,Dove,1750.92,1478.57,gram,True
+PROD000638,Red Bull Special Energy Drinks 638,Beverages,Energy Drinks,Red Bull,308.61,232.58,ml,False
+PROD000639,Aashirvaad Value Atta 639,Grocery,Atta,Aashirvaad,226.99,127.14,ml,True
+PROD000640,Dove Value Shampoo 640,Personal Care,Shampoo,Dove,1952.02,1635.17,piece,True
+PROD000641,Red Bull Organic Energy Drinks 641,Beverages,Energy Drinks,Red Bull,91.18,63.05,ml,True
+PROD000642,Monginis Family Cakes 642,Bakery,Cakes,Monginis,1134.19,840.27,kg,False
+PROD000643,India Gate Premium Rice 643,Grocery,Rice,India Gate,748.49,520.53,kg,True
+PROD000644,Haldiram Premium Namkeen 644,Snacks,Namkeen,Haldiram,243.47,164.71,litre,True
+PROD000645,Amul Daily Milk 645,Dairy,Milk,Amul,1444.51,1213.72,litre,True
+PROD000646,Haldiram Premium Namkeen 646,Snacks,Namkeen,Haldiram,384.58,300.26,pack,True
+PROD000647,Monginis Organic Cakes 647,Bakery,Cakes,Monginis,22.6,16.16,piece,False
+PROD000648,Harpic Daily Cleaning 648,Household,Cleaning,Harpic,895.63,690.4,ml,True
+PROD000649,Parle Premium Biscuits 649,Snacks,Biscuits,Parle,792.95,659.21,gram,True
+PROD000650,Real Daily Juice 650,Beverages,Juice,Real,814.02,477.34,ml,True
+PROD000651,Britannia Value Bread 651,Bakery,Bread,Britannia,1302.89,746.62,piece,True
+PROD000652,Fresho Daily Fresh Fruits 652,Fruits,Fresh Fruits,Fresho,1639.02,1073.58,gram,True
+PROD000653,Fresho Daily Fresh Vegetables 653,Vegetables,Fresh Vegetables,Fresho,1316.74,1097.68,kg,False
+PROD000654,Harpic Original Cleaning 654,Household,Cleaning,Harpic,1592.96,1275.8,litre,True
+PROD000655,Amul Value Cheese 655,Dairy,Cheese,Amul,517.16,309.98,litre,True
+PROD000656,Surf Excel Daily Laundry 656,Household,Laundry,Surf Excel,1328.32,953.57,gram,True
+PROD000657,Parle Special Biscuits 657,Snacks,Biscuits,Parle,486.71,307.8,gram,False
+PROD000658,India Gate Special Rice 658,Grocery,Rice,India Gate,1115.35,858.86,piece,True
+PROD000660,Lays Value Chips 660,Snacks,Chips,Lays,1184.68,829.36,kg,False
+PROD000661,Aashirvaad Family Atta 661,Grocery,Atta,Aashirvaad,1308.24,732.49,gram,True
+PROD000662,Fortune Original Cooking Oil 662,Grocery,Cooking Oil,Fortune,731.27,534.98,litre,True
+PROD000663,Surf Excel Fresh Laundry 663,Household,Laundry,Surf Excel,150.33,103.81,litre,False
+PROD000664,Red Bull Natural Energy Drinks 664,Beverages,Energy Drinks,Red Bull,1421.47,972.67,ml,True
+PROD000665,Fresho Classic Fresh Vegetables 665,Vegetables,Fresh Vegetables,Fresho,1078.57,753.53,litre,True
+PROD000666,Mother Dairy Special Curd 666,Dairy,Curd,Mother Dairy,289.69,234.66,gram,True
+PROD000667,Real Fresh Juice 667,Beverages,Juice,Real,764.73,470.15,piece,True
+PROD000668,Monginis Daily Cakes 668,Bakery,Cakes,Monginis,873.53,537.74,gram,True
+PROD000669,Fresho Daily Fresh Fruits 669,Fruits,Fresh Fruits,Fresho,1948.68,1072.65,gram,False
+PROD000671,Amul Family Milk 671,Dairy,Milk,Amul,962.11,611.97,litre,True
+PROD000672,Lays Classic Chips 672,Snacks,Chips,Lays,496.29,398.88,kg,True
+PROD000673,Dove Organic Shampoo 673,Personal Care,Shampoo,Dove,1394.13,1118.91,gram,True
+PROD000674,Parle Original Biscuits 674,Snacks,Biscuits,Parle,163.41,93.67,litre,False
+PROD000675,Lux Value Soap 675,Personal Care,Soap,Lux,1714.01,1368.75,gram,True
+PROD000676,Monginis Family Cakes 676,Bakery,Cakes,Monginis,76.32,60.76,ml,True
+PROD000677,Harpic Value Cleaning 677,Household,Cleaning,Harpic,459.3,299.89,kg,True
+PROD000678,Red Bull Natural Energy Drinks 678,Beverages,Energy Drinks,Red Bull,1513.98,1236.01,piece,False
+PROD000679,Haldiram Classic Namkeen 679,Snacks,Namkeen,Haldiram,337.04,239.46,kg,True
+PROD000680,Surf Excel Family Laundry 680,Household,Laundry,Surf Excel,713.76,554.66,kg,True
+PROD000681,Amul Original Milk 681,Dairy,Milk,Amul,1296.07,840.15,gram,True
+PROD000682,Coca-cola Value Soft Drinks 682,Beverages,Soft Drinks,Coca-cola,706.75,547.71,piece,True
+PROD000683,Aashirvaad Fresh Atta 683,Grocery,Atta,Aashirvaad,1304.27,975.7,litre,False
+PROD000684,Lux Family Soap 684,Personal Care,Soap,Lux,133.53,109.42,ml,True
+PROD000685,Lays Fresh Chips 685,Snacks,Chips,Lays,70.02,45.26,piece,True
+PROD000686,Real Natural Juice 686,Beverages,Juice,Real,1144.57,703.98,pack,True
+PROD000687,Monginis Original Cakes 687,Bakery,Cakes,Monginis,1210.27,786.76,piece,False
+PROD000689,Britannia Fresh Bread 689,Bakery,Bread,Britannia,876.45,642.53,kg,True
+PROD000690,Fresho Premium Fresh Fruits 690,Fruits,Fresh Fruits,Fresho,316.7,253.3,litre,True
+PROD000691,Red Bull Daily Energy Drinks 691,Beverages,Energy Drinks,Red Bull,1999.44,1667.14,gram,True
+PROD000692,Amul Daily Milk 692,Dairy,Milk,Amul,439.4,364.88,piece,False
+PROD000693,Aashirvaad Classic Atta 693,Grocery,Atta,Aashirvaad,1374.63,940.75,piece,True
+PROD000694,Fresho Family Fresh Fruits 694,Fruits,Fresh Fruits,Fresho,1710.89,1315.23,piece,False
+PROD000695,Mother Dairy Value Curd 695,Dairy,Curd,Mother Dairy,423.84,234.12,litre,True
+PROD000696,Fortune Family Cooking Oil 696,Grocery,Cooking Oil,Fortune,1789.56,1293.45,ml,True
+PROD000697,Dove Family Shampoo 697,Personal Care,Shampoo,Dove,453.86,380.83,ml,True
+PROD000698,Amul Value Cheese 698,Dairy,Cheese,Amul,521.33,363.11,gram,False
+PROD000699,Fortune Family Cooking Oil 699,Grocery,Cooking Oil,Fortune,1510.6,1004.76,kg,True
+PROD000700,Red Bull Premium Energy Drinks 700,Beverages,Energy Drinks,Red Bull,1547.62,1230.23,litre,True
+PROD000701,Coca-cola Classic Soft Drinks 701,Beverages,Soft Drinks,Coca-cola,711.77,512.97,piece,True
+PROD000702,Surf Excel Original Laundry 702,Household,Laundry,Surf Excel,1242.83,977.34,pack,False
+PROD000703,Mother Dairy Daily Curd 703,Dairy,Curd,Mother Dairy,1100.93,860.61,piece,True
+PROD000704,Fresho Classic Fresh Fruits 704,Fruits,Fresh Fruits,Fresho,1536.56,1286.21,pack,True
+PROD000705,Harpic Daily Cleaning 705,Household,Cleaning,Harpic,1767.56,1056.62,litre,True
+PROD000706,Britannia Organic Bread 706,Bakery,Bread,Britannia,1209.84,770.7,ml,False
+PROD000708,Dove Natural Shampoo 708,Personal Care,Shampoo,Dove,169.94,117.36,pack,False
+PROD000709,Monginis Value Cakes 709,Bakery,Cakes,Monginis,284.27,158.48,ml,True
+PROD000710,Real Natural Juice 710,Beverages,Juice,Real,725.46,504.0,gram,False
+PROD000711,Surf Excel Special Laundry 711,Household,Laundry,Surf Excel,1512.53,1088.94,gram,True
+PROD000712,Haldiram Family Namkeen 712,Snacks,Namkeen,Haldiram,1011.07,626.92,kg,False
+PROD000713,Dove Natural Shampoo 713,Personal Care,Shampoo,Dove,248.32,158.76,litre,True
+PROD000714,Surf Excel Family Laundry 714,Household,Laundry,Surf Excel,1570.63,896.13,pack,True
+PROD000715,Harpic Classic Cleaning 715,Household,Cleaning,Harpic,956.9,756.91,kg,True
+PROD000716,Fresho Organic Fresh Vegetables 716,Vegetables,Fresh Vegetables,Fresho,1124.45,825.5,pack,True
+PROD000717,Fresho Organic Fresh Vegetables 717,Vegetables,Fresh Vegetables,Fresho,1197.11,727.88,pack,True
+PROD000718,Fortune Original Cooking Oil 718,Grocery,Cooking Oil,Fortune,1597.56,996.12,invalid_unit,True
+PROD000719,Haldiram Special Namkeen 719,Snacks,Namkeen,Haldiram,266.96,151.9,litre,True
+PROD000720,Surf Excel Original Laundry 720,Household,Laundry,Surf Excel,1935.85,1373.15,kg,True
+PROD000721,Amul Daily Milk 721,Dairy,Milk,Amul,1541.04,900.77,litre,True
+PROD000722,Mother Dairy Fresh Curd 722,Dairy,Curd,Mother Dairy,1254.22,1062.58,kg,True
+PROD000723,Real Organic Juice 723,Beverages,Juice,Real,922.96,512.19,gram,False
+PROD000724,Parle Original Biscuits 724,Snacks,Biscuits,Parle,1203.49,769.77,kg,True
+PROD000725,Real Organic Juice 725,Beverages,Juice,Real,1720.96,1093.39,gram,False
+PROD000726,Fortune Value Cooking Oil 726,Grocery,Cooking Oil,Fortune,1742.57,1149.35,piece,True
+PROD000727,Mother Dairy Daily Curd 727,Dairy,Curd,Mother Dairy,1638.01,1023.57,litre,True
+PROD000728,Haldiram Premium Namkeen 728,Snacks,Namkeen,Haldiram,880.76,501.77,ml,True
+PROD000729,Fresho Natural Fresh Fruits 729,Fruits,Fresh Fruits,Fresho,1861.8,1086.59,litre,True
+PROD000730,Fortune Natural Cooking Oil 730,Grocery,Cooking Oil,Fortune,1412.4,1122.43,pack,True
+PROD000732,Britannia Fresh Bread 732,Bakery,Bread,Britannia,852.84,609.69,kg,False
+PROD000733,Monginis Premium Cakes 733,Bakery,Cakes,Monginis,55.26,30.95,kg,True
+PROD000734,Harpic Original Cleaning 734,Household,Cleaning,Harpic,998.74,648.61,kg,True
+PROD000735,Lux Daily Soap 735,Personal Care,Soap,Lux,969.52,739.88,litre,True
+PROD000736,Fortune Daily Cooking Oil 736,Grocery,Cooking Oil,Fortune,456.7,255.97,piece,True
+PROD000737,Surf Excel Value Laundry 737,Household,Laundry,Surf Excel,907.64,758.41,piece,False
+PROD000738,Real Special Juice 738,Beverages,Juice,Real,127.53,84.92,ml,True
+PROD000739,Aashirvaad Daily Atta 739,Grocery,Atta,Aashirvaad,1103.19,878.27,litre,False
+PROD000740,Haldiram Premium Namkeen 740,Snacks,Namkeen,Haldiram,1336.95,1080.1,pack,True
+PROD000742,Real Value Juice 742,Beverages,Juice,Real,1052.64,582.32,ml,True
+PROD000743,Haldiram Daily Namkeen 743,Snacks,Namkeen,Haldiram,611.82,375.65,pack,True
+PROD000744,Dove Special Shampoo 744,Personal Care,Shampoo,Dove,1249.83,985.25,piece,True
+PROD000745,Dove Daily Shampoo 745,Personal Care,Shampoo,Dove,1326.16,942.78,ml,True
+PROD000746,Lux Natural Soap 746,Personal Care,Soap,Lux,760.19,539.48,pack,False
+PROD000747,Real Classic Juice 747,Beverages,Juice,Real,606.78,441.46,ml,True
+PROD000749,Britannia Fresh Bread 749,Bakery,Bread,Britannia,1372.75,1002.89,ml,True
+PROD000750,Lays Premium Chips 750,Snacks,Chips,Lays,1484.26,944.01,pack,True
+PROD000751,Lux Organic Soap 751,Personal Care,Soap,Lux,1897.9,1117.39,gram,False
+PROD000752,Haldiram Premium Namkeen 752,Snacks,Namkeen,Haldiram,112.95,90.09,kg,True
+PROD000753,Fresho Premium Fresh Fruits 753,Fruits,Fresh Fruits,Fresho,1660.42,919.81,gram,False
+PROD000754,Surf Excel Fresh Laundry 754,Household,Laundry,Surf Excel,978.1,810.83,kg,True
+PROD000755,Britannia Natural Bread 755,Bakery,Bread,Britannia,1762.94,1067.02,pack,True
+PROD000756,Red Bull Natural Energy Drinks 756,Beverages,Energy Drinks,Red Bull,749.27,451.54,litre,True
+PROD000757,Haldiram Natural Namkeen 757,Snacks,Namkeen,Haldiram,1278.96,897.32,litre,True
+PROD000758,Monginis Special Cakes 758,Bakery,Cakes,Monginis,479.31,386.42,gram,True
+PROD000759,Lays Family Chips 759,Snacks,Chips,Lays,892.66,695.38,litre,True
+PROD000760,Amul Fresh Milk 760,Dairy,Milk,Amul,275.44,208.83,ml,True
+PROD000761,Mother Dairy Classic Curd 761,Dairy,Curd,Mother Dairy,1287.21,1036.25,litre,True
+PROD000762,Lux Special Soap 762,Personal Care,Soap,Lux,402.93,339.27,kg,True
+PROD000763,Haldiram Original Namkeen 763,Snacks,Namkeen,Haldiram,1638.14,1057.52,gram,True
+PROD000764,Dove Special Shampoo 764,Personal Care,Shampoo,Dove,1305.66,764.52,ml,True
+PROD000765,Monginis Original Cakes 765,Bakery,Cakes,Monginis,595.77,363.45,gram,True
+PROD000766,Dove Value Shampoo 766,Personal Care,Shampoo,Dove,819.45,604.04,gram,True
+PROD000767,India Gate Natural Rice 767,Grocery,Rice,India Gate,648.49,436.27,piece,False
+PROD000768,Fortune Family Cooking Oil 768,Grocery,Cooking Oil,Fortune,530.8,404.9,litre,True
+PROD000769,Amul Family Cheese 769,Dairy,Cheese,Amul,1814.25,1275.67,piece,True
+PROD000770,Lays Daily Chips 770,Snacks,Chips,Lays,627.9,361.12,pack,True
+PROD000771,Amul Classic Milk 771,Dairy,Milk,Amul,137.14,99.85,gram,True
+PROD000772,Red Bull Classic Energy Drinks 772,Beverages,Energy Drinks,Red Bull,1756.46,1083.82,kg,True
+PROD000773,Aashirvaad Special Atta 773,Grocery,Atta,Aashirvaad,1150.77,820.16,gram,True
+PROD000775,Red Bull Premium Energy Drinks 775,Beverages,Energy Drinks,Red Bull,1211.29,896.59,piece,True
+PROD000776,Fresho Premium Fresh Vegetables 776,Vegetables,Fresh Vegetables,Fresho,554.15,367.08,piece,True
+PROD000777,Dove Fresh Shampoo 777,Personal Care,Shampoo,Dove,48.2,40.9,invalid_unit,True
+PROD000778,Surf Excel Organic Laundry 778,Household,Laundry,Surf Excel,1630.61,1331.25,pack,True
+PROD000779,Parle Natural Biscuits 779,Snacks,Biscuits,Parle,1996.22,1560.12,pack,True
+PROD000780,Real Family Juice 780,Beverages,Juice,Real,715.89,574.86,litre,True
+PROD000781,Fresho Natural Fresh Vegetables 781,Vegetables,Fresh Vegetables,Fresho,1100.27,883.18,piece,True
+PROD000782,Dove Family Shampoo 782,Personal Care,Shampoo,Dove,1660.54,1206.98,piece,True
+PROD000783,India Gate Special Rice 783,Grocery,Rice,India Gate,1736.07,1137.57,piece,True
+PROD000784,Fortune Fresh Cooking Oil 784,Grocery,Cooking Oil,Fortune,732.45,416.5,pack,True
+PROD000785,Monginis Classic Cakes 785,Bakery,Cakes,Monginis,1848.0,1318.13,litre,True
+PROD000786,Amul Special Cheese 786,Dairy,Cheese,Amul,398.49,336.56,litre,True
+PROD000787,Surf Excel Family Laundry 787,Household,Laundry,Surf Excel,101.03,58.04,piece,False
+PROD000788,Real Value Juice 788,Beverages,Juice,Real,1589.55,904.03,ml,True
+PROD000789,Red Bull Value Energy Drinks 789,Beverages,Energy Drinks,Red Bull,1193.63,718.06,ml,True
+PROD000790,Real Family Juice 790,Beverages,Juice,Real,119.94,83.02,pack,True
+PROD000791,Dove Daily Shampoo 791,Personal Care,Shampoo,Dove,1412.72,1080.68,pack,True
+PROD000792,Aashirvaad Natural Atta 792,Grocery,Atta,Aashirvaad,1505.71,1001.99,litre,True
+PROD000793,Amul Organic Milk 793,Dairy,Milk,Amul,894.92,580.15,pack,True
+PROD000794,Amul Value Cheese 794,Dairy,Cheese,Amul,707.59,597.61,piece,False
+PROD000795,Amul Daily Milk 795,Dairy,Milk,Amul,1316.71,1049.14,ml,True
+PROD000796,Surf Excel Value Laundry 796,Household,Laundry,Surf Excel,181.74,112.48,ml,True
+PROD000797,Monginis Natural Cakes 797,Bakery,Cakes,Monginis,1946.63,1331.78,gram,False
+PROD000798,Amul Classic Milk 798,Dairy,Milk,Amul,346.06,213.89,litre,True
+PROD000799,Monginis Organic Cakes 799,Bakery,Cakes,Monginis,878.15,613.19,ml,True
+PROD000800,Lays Family Chips 800,Snacks,Chips,Lays,1672.14,1252.77,pack,False
+PROD000801,Harpic Special Cleaning 801,Household,Cleaning,Harpic,315.14,243.35,pack,False
+PROD000802,Aashirvaad Organic Atta 802,Grocery,Atta,Aashirvaad,485.93,385.59,kg,False
+PROD000803,Aashirvaad Value Atta 803,Grocery,Atta,Aashirvaad,600.25,376.03,litre,True
+PROD000804,Lays Daily Chips 804,Snacks,Chips,Lays,1974.99,1199.97,gram,True
+PROD000805,Fresho Natural Fresh Vegetables 805,Vegetables,Fresh Vegetables,Fresho,950.94,530.49,litre,True
+PROD000806,Amul Premium Milk 806,Dairy,Milk,Amul,720.15,548.72,kg,True
+PROD000807,Monginis Special Cakes 807,Bakery,Cakes,Monginis,138.2,88.41,pack,False
+PROD000808,Fresho Natural Fresh Vegetables 808,Vegetables,Fresh Vegetables,Fresho,626.84,420.56,pack,False
+PROD000809,Fortune Premium Cooking Oil 809,Grocery,Cooking Oil,Fortune,1836.3,1308.11,ml,True
+PROD000810,Lux Special Soap 810,Personal Care,Soap,Lux,1282.75,801.91,gram,True
+PROD000811,Britannia Fresh Bread 811,Bakery,Bread,Britannia,519.92,416.48,piece,True
+PROD000812,Real Classic Juice 812,Beverages,Juice,Real,1773.31,1235.81,piece,True
+PROD000813,Surf Excel Daily Laundry 813,Household,Laundry,Surf Excel,834.85,637.44,litre,True
+PROD000814,Harpic Premium Cleaning 814,Household,Cleaning,Harpic,972.39,698.34,piece,True
+PROD000815,Aashirvaad Original Atta 815,Grocery,Atta,Aashirvaad,689.31,515.92,pack,False
+PROD000816,Amul Original Milk 816,Dairy,Milk,Amul,1581.19,892.11,ml,True
+PROD000817,Fresho Organic Fresh Vegetables 817,Vegetables,Fresh Vegetables,Fresho,87.07,63.23,ml,True
+PROD000818,Real Classic Juice 818,Beverages,Juice,Real,135.83,78.38,kg,True
+PROD000819,Surf Excel Natural Laundry 819,Household,Laundry,Surf Excel,781.27,462.24,gram,True
+PROD000820,Fortune Original Cooking Oil 820,Grocery,Cooking Oil,Fortune,1353.42,839.22,piece,True
+PROD000821,Red Bull Original Energy Drinks 821,Beverages,Energy Drinks,Red Bull,1470.1,849.82,ml,True
+PROD000822,Britannia Value Bread 822,Bakery,Bread,Britannia,732.2,408.02,piece,True
+PROD000823,Real Value Juice 823,Beverages,Juice,Real,1341.96,807.61,piece,False
+PROD000824,Aashirvaad Daily Atta 824,Grocery,Atta,Aashirvaad,1071.31,780.72,litre,True
+PROD000825,Coca-cola Premium Soft Drinks 825,Beverages,Soft Drinks,Coca-cola,1751.45,1171.36,ml,True
+PROD000826,Dove Organic Shampoo 826,Personal Care,Shampoo,Dove,612.02,436.99,litre,True
+PROD000827,Amul Premium Milk 827,Dairy,Milk,Amul,1020.81,702.74,litre,False
+PROD000828,Dove Premium Shampoo 828,Personal Care,Shampoo,Dove,1506.95,1154.84,kg,True
+PROD000829,Fresho Organic Fresh Fruits 829,Fruits,Fresh Fruits,Fresho,601.46,491.95,pack,False
+PROD000830,Britannia Classic Bread 830,Bakery,Bread,Britannia,1425.06,1073.27,piece,True
+PROD000831,Lays Special Chips 831,Snacks,Chips,Lays,345.93,261.92,pack,True
+PROD000832,Fortune Organic Cooking Oil 832,Grocery,Cooking Oil,Fortune,739.22,618.61,kg,True
+PROD000833,Red Bull Classic Energy Drinks 833,Beverages,Energy Drinks,Red Bull,245.62,162.15,gram,True
+PROD000834,Real Premium Juice 834,Beverages,Juice,Real,30.14,23.4,piece,True
+PROD000835,India Gate Premium Rice 835,Grocery,Rice,India Gate,696.32,537.66,pack,True
+PROD000836,Fortune Premium Cooking Oil 836,Grocery,Cooking Oil,Fortune,1751.25,1295.18,ml,True
+PROD000837,Lux Classic Soap 837,Personal Care,Soap,Lux,1317.29,879.92,gram,True
+PROD000838,Haldiram Fresh Namkeen 838,Snacks,Namkeen,Haldiram,413.44,256.45,kg,True
+PROD000839,Haldiram Organic Namkeen 839,Snacks,Namkeen,Haldiram,981.99,827.83,litre,True
+PROD000840,Lays Daily Chips 840,Snacks,Chips,Lays,1213.53,735.8,ml,True
+PROD000841,Amul Organic Cheese 841,Dairy,Cheese,Amul,681.46,493.33,gram,True
+PROD000842,Lays Family Chips 842,Snacks,Chips,Lays,1213.34,929.92,ml,False
+PROD000843,Monginis Classic Cakes 843,Bakery,Cakes,Monginis,1112.36,794.95,kg,False
+PROD000844,Britannia Natural Bread 844,Bakery,Bread,Britannia,173.7,127.91,kg,True
+PROD000845,Coca-cola Natural Soft Drinks 845,Beverages,Soft Drinks,Coca-cola,116.96,89.65,kg,True
+PROD000846,Fortune Original Cooking Oil 846,Grocery,Cooking Oil,Fortune,1665.82,1313.46,litre,False
+PROD000847,Fresho Premium Fresh Vegetables 847,Vegetables,Fresh Vegetables,Fresho,1938.79,1096.8,pack,True
+PROD000848,Parle Original Biscuits 848,Snacks,Biscuits,Parle,1846.99,1511.55,kg,True
+PROD000849,Fresho Organic Fresh Fruits 849,Fruits,Fresh Fruits,Fresho,907.45,741.55,kg,True
+PROD000850,Fresho Classic Fresh Fruits 850,Fruits,Fresh Fruits,Fresho,1482.37,947.64,litre,False
+PROD000851,Mother Dairy Family Curd 851,Dairy,Curd,Mother Dairy,1237.9,1025.41,gram,False
+PROD000852,Aashirvaad Natural Atta 852,Grocery,Atta,Aashirvaad,1118.32,664.85,ml,True
+PROD000853,Fresho Classic Fresh Fruits 853,Fruits,Fresh Fruits,Fresho,1717.72,1167.02,gram,True
+PROD000854,Surf Excel Family Laundry 854,Household,Laundry,Surf Excel,559.93,416.44,gram,True
+PROD000855,Mother Dairy Natural Curd 855,Dairy,Curd,Mother Dairy,148.33,123.06,ml,False
+PROD000856,Lux Natural Soap 856,Personal Care,Soap,Lux,706.38,439.97,litre,True
+PROD000857,Harpic Daily Cleaning 857,Household,Cleaning,Harpic,759.06,424.63,piece,False
+PROD000858,Haldiram Natural Namkeen 858,Snacks,Namkeen,Haldiram,1942.63,1460.26,kg,True
+PROD000859,Mother Dairy Daily Curd 859,Dairy,Curd,Mother Dairy,1835.68,1467.93,gram,False
+PROD000860,Amul Daily Cheese 860,Dairy,Cheese,Amul,248.11,207.72,litre,True
+PROD000861,Real Family Juice 861,Beverages,Juice,Real,290.47,187.82,piece,True
+PROD000862,Monginis Special Cakes 862,Bakery,Cakes,Monginis,754.18,498.22,piece,False
+PROD000863,Fortune Premium Cooking Oil 863,Grocery,Cooking Oil,Fortune,219.56,170.08,gram,False
+PROD000864,Amul Original Milk 864,Dairy,Milk,Amul,1556.05,1178.6,ml,True
+PROD000865,Lux Family Soap 865,Personal Care,Soap,Lux,600.46,388.4,pack,True
+PROD000866,Mother Dairy Original Curd 866,Dairy,Curd,Mother Dairy,1151.68,714.56,pack,True
+PROD000867,Monginis Organic Cakes 867,Bakery,Cakes,Monginis,470.9,330.03,pack,True
+PROD000868,Harpic Value Cleaning 868,Household,Cleaning,Harpic,1564.08,900.29,pack,True
+PROD000869,Fresho Organic Fresh Fruits 869,Fruits,Fresh Fruits,Fresho,781.79,491.99,litre,True
+PROD000870,Real Family Juice 870,Beverages,Juice,Real,1106.79,903.84,litre,True
+PROD000871,Real Special Juice 871,Beverages,Juice,Real,1928.27,1128.98,gram,False
+PROD000872,Fortune Original Cooking Oil 872,Grocery,Cooking Oil,Fortune,1739.3,1467.43,ml,False
+PROD000873,Dove Value Shampoo 873,Personal Care,Shampoo,Dove,1039.63,691.09,ml,True
+PROD000874,Lux Premium Soap 874,Personal Care,Soap,Lux,337.99,272.4,ml,False
+PROD000875,Harpic Organic Cleaning 875,Household,Cleaning,Harpic,657.11,453.28,ml,True
+PROD000876,Monginis Natural Cakes 876,Bakery,Cakes,Monginis,1584.73,999.94,piece,False
+PROD000877,India Gate Natural Rice 877,Grocery,Rice,India Gate,586.18,448.18,kg,True
+PROD000878,Fresho Fresh Fresh Vegetables 878,Vegetables,Fresh Vegetables,Fresho,1842.48,1541.66,kg,True
+PROD000879,Fresho Fresh Fresh Vegetables 879,Vegetables,Fresh Vegetables,Fresho,492.25,340.03,pack,True
+PROD000880,Britannia Family Bread 880,Bakery,Bread,Britannia,1627.31,1099.54,kg,True
+PROD000881,Surf Excel Classic Laundry 881,Household,Laundry,Surf Excel,195.01,151.88,kg,True
+PROD000882,Amul Organic Milk 882,Dairy,Milk,Amul,1760.66,1103.89,gram,True
+PROD000883,Aashirvaad Family Atta 883,Grocery,Atta,Aashirvaad,52.64,30.2,pack,True
+PROD000884,Real Family Juice 884,Beverages,Juice,Real,1130.59,945.04,kg,True
+PROD000885,Aashirvaad Premium Atta 885,Grocery,Atta,Aashirvaad,834.96,489.0,litre,True
+PROD000886,Lays Daily Chips 886,Snacks,Chips,Lays,886.02,582.01,gram,True
+PROD000887,Coca-cola Special Soft Drinks 887,Beverages,Soft Drinks,Coca-cola,1256.0,1006.4,ml,True
+PROD000888,Lux Original Soap 888,Personal Care,Soap,Lux,372.96,222.14,piece,False
+PROD000889,Dove Daily Shampoo 889,Personal Care,Shampoo,Dove,591.89,476.52,kg,True
+PROD000890,Dove Premium Shampoo 890,Personal Care,Shampoo,Dove,675.06,496.83,gram,True
+PROD000891,India Gate Fresh Rice 891,Grocery,Rice,India Gate,912.8,618.71,pack,False
+PROD000892,Amul Organic Cheese 892,Dairy,Cheese,Amul,978.1,687.01,ml,True
+PROD000893,Parle Special Biscuits 893,Snacks,Biscuits,Parle,1195.82,802.15,ml,True
+PROD000894,Mother Dairy Special Curd 894,Dairy,Curd,Mother Dairy,1563.15,1261.68,pack,True
+PROD000895,Red Bull Natural Energy Drinks 895,Beverages,Energy Drinks,Red Bull,639.4,441.25,litre,True
+PROD000896,Lux Natural Soap 896,Personal Care,Soap,Lux,354.24,235.53,gram,False
+PROD000897,India Gate Value Rice 897,Grocery,Rice,India Gate,1111.35,773.89,kg,True
+PROD000898,Lays Premium Chips 898,Snacks,Chips,Lays,1143.84,694.04,gram,True
+PROD000899,Haldiram Special Namkeen 899,Snacks,Namkeen,Haldiram,1250.37,868.96,litre,False
+PROD000900,Lays Family Chips 900,Snacks,Chips,Lays,1435.99,1167.77,gram,False
+PROD000901,Monginis Classic Cakes 901,Bakery,Cakes,Monginis,866.05,549.25,piece,True
+PROD000902,India Gate Classic Rice 902,Grocery,Rice,India Gate,1911.19,1551.07,ml,True
+PROD000903,Mother Dairy Natural Curd 903,Dairy,Curd,Mother Dairy,152.1,124.97,piece,True
+PROD000904,Aashirvaad Original Atta 904,Grocery,Atta,Aashirvaad,71.19,45.56,ml,True
+PROD000905,Parle Fresh Biscuits 905,Snacks,Biscuits,Parle,1049.99,630.82,gram,True
+PROD000906,Dove Classic Shampoo 906,Personal Care,Shampoo,Dove,704.49,446.68,gram,True
+PROD000907,Parle Classic Biscuits 907,Snacks,Biscuits,Parle,844.87,508.55,ml,True
+PROD000908,Fortune Organic Cooking Oil 908,Grocery,Cooking Oil,Fortune,1725.94,1381.04,gram,True
+PROD000909,Amul Original Cheese 909,Dairy,Cheese,Amul,861.58,483.75,kg,True
+PROD000910,Red Bull Value Energy Drinks 910,Beverages,Energy Drinks,Red Bull,1688.28,998.92,pack,True
+PROD000911,Parle Family Biscuits 911,Snacks,Biscuits,Parle,715.15,399.49,ml,False
+PROD000912,Haldiram Classic Namkeen 912,Snacks,Namkeen,Haldiram,612.09,467.55,gram,False
+PROD000914,Britannia Special Bread 914,Bakery,Bread,Britannia,1883.41,1387.96,kg,True
+PROD000915,Coca-cola Family Soft Drinks 915,Beverages,Soft Drinks,Coca-cola,1904.71,1284.61,piece,True
+PROD000916,Parle Organic Biscuits 916,Snacks,Biscuits,Parle,346.91,233.22,kg,True
+PROD000917,Britannia Value Bread 917,Bakery,Bread,Britannia,803.98,544.15,piece,False
+PROD000918,Haldiram Organic Namkeen 918,Snacks,Namkeen,Haldiram,1563.67,1229.44,pack,True
+PROD000919,Surf Excel Original Laundry 919,Household,Laundry,Surf Excel,1696.22,1149.78,gram,True
+PROD000920,Amul Organic Cheese 920,Dairy,Cheese,Amul,488.61,348.63,piece,False
+PROD000921,Fresho Classic Fresh Fruits 921,Fruits,Fresh Fruits,Fresho,1689.14,1162.46,litre,False
+PROD000922,India Gate Natural Rice 922,Grocery,Rice,India Gate,1143.81,937.83,piece,True
+PROD000923,Parle Daily Biscuits 923,Snacks,Biscuits,Parle,693.27,564.37,pack,True
+PROD000924,Lux Natural Soap 924,Personal Care,Soap,Lux,1108.02,808.31,ml,True
+PROD000925,Real Premium Juice 925,Beverages,Juice,Real,1575.56,1296.52,ml,True
+PROD000926,Fresho Fresh Fresh Fruits 926,Fruits,Fresh Fruits,Fresho,385.64,322.9,kg,True
+PROD000927,Lays Natural Chips 927,Snacks,Chips,Lays,896.1,628.75,litre,True
+PROD000928,Real Premium Juice 928,Beverages,Juice,Real,1794.59,1302.97,gram,True
+PROD000929,Coca-cola Special Soft Drinks 929,Beverages,Soft Drinks,Coca-cola,1372.2,861.98,ml,True
+PROD000930,Amul Organic Milk 930,Dairy,Milk,Amul,1279.93,779.62,gram,False
+PROD000932,Amul Classic Cheese 932,Dairy,Cheese,Amul,289.98,244.62,litre,True
+PROD000933,Harpic Family Cleaning 933,Household,Cleaning,Harpic,576.92,432.77,piece,True
+PROD000934,Fresho Daily Fresh Vegetables 934,Vegetables,Fresh Vegetables,Fresho,1461.41,984.95,gram,True
+PROD000935,Surf Excel Classic Laundry 935,Household,Laundry,Surf Excel,1715.59,1127.28,gram,True
+PROD000936,Monginis Original Cakes 936,Bakery,Cakes,Monginis,616.89,447.95,ml,True
+PROD000937,Aashirvaad Special Atta 937,Grocery,Atta,Aashirvaad,1736.11,1370.26,kg,False
+PROD000938,Amul Organic Cheese 938,Dairy,Cheese,Amul,586.17,451.77,litre,True
+PROD000939,Lays Family Chips 939,Snacks,Chips,Lays,366.57,254.29,litre,False
+PROD000940,Fresho Value Fresh Vegetables 940,Vegetables,Fresh Vegetables,Fresho,23.7,14.74,gram,True
+PROD000941,Mother Dairy Classic Curd 941,Dairy,Curd,Mother Dairy,647.18,436.75,kg,True
+PROD000942,Fresho Fresh Fresh Vegetables 942,Vegetables,Fresh Vegetables,Fresho,590.76,331.2,invalid_unit,True
+PROD000943,Dove Original Shampoo 943,Personal Care,Shampoo,Dove,254.33,189.47,piece,False
+PROD000944,Amul Classic Cheese 944,Dairy,Cheese,Amul,929.89,512.35,litre,False
+PROD000945,Harpic Premium Cleaning 945,Household,Cleaning,Harpic,1920.1,1434.19,ml,True
+PROD000946,Fortune Family Cooking Oil 946,Grocery,Cooking Oil,Fortune,1936.26,1116.81,gram,False
+PROD000947,Dove Natural Shampoo 947,Personal Care,Shampoo,Dove,1809.82,1395.87,piece,True
+PROD000948,Aashirvaad Fresh Atta 948,Grocery,Atta,Aashirvaad,1698.9,1434.5,gram,False
+PROD000949,Red Bull Classic Energy Drinks 949,Beverages,Energy Drinks,Red Bull,1147.12,957.84,ml,True
+PROD000950,Fresho Classic Fresh Fruits 950,Fruits,Fresh Fruits,Fresho,1462.76,949.36,kg,True
+PROD000951,Harpic Premium Cleaning 951,Household,Cleaning,Harpic,1148.75,974.31,litre,True
+PROD000953,Amul Natural Milk 953,Dairy,Milk,Amul,960.89,755.08,piece,False
+PROD000954,Fresho Fresh Fresh Fruits 954,Fruits,Fresh Fruits,Fresho,610.75,353.75,ml,True
+PROD000955,Surf Excel Daily Laundry 955,Household,Laundry,Surf Excel,832.79,645.4,gram,True
+PROD000956,Aashirvaad Fresh Atta 956,Grocery,Atta,Aashirvaad,1017.88,795.49,piece,False
+PROD000957,Surf Excel Special Laundry 957,Household,Laundry,Surf Excel,652.26,551.17,gram,False
+PROD000959,Parle Natural Biscuits 959,Snacks,Biscuits,Parle,1480.22,1152.18,ml,True
+PROD000960,Britannia Daily Bread 960,Bakery,Bread,Britannia,1499.42,1186.17,pack,False
+PROD000961,Monginis Value Cakes 961,Bakery,Cakes,Monginis,1892.24,1526.54,ml,True
+PROD000962,Amul Daily Cheese 962,Dairy,Cheese,Amul,703.8,433.4,gram,True
+PROD000963,India Gate Special Rice 963,Grocery,Rice,India Gate,1800.46,1093.88,piece,True
+PROD000964,Fortune Premium Cooking Oil 964,Grocery,Cooking Oil,Fortune,1963.89,1210.54,kg,True
+PROD000965,Mother Dairy Premium Curd 965,Dairy,Curd,Mother Dairy,384.72,320.98,piece,True
+PROD000966,Fortune Classic Cooking Oil 966,Grocery,Cooking Oil,Fortune,1838.86,1226.77,piece,True
+PROD000967,Fortune Daily Cooking Oil 967,Grocery,Cooking Oil,Fortune,381.53,275.32,pack,True
+PROD000968,Coca-cola Special Soft Drinks 968,Beverages,Soft Drinks,Coca-cola,1692.29,1405.97,litre,True
+PROD000969,Haldiram Daily Namkeen 969,Snacks,Namkeen,Haldiram,1455.69,1060.35,pack,False
+PROD000970,Amul Natural Cheese 970,Dairy,Cheese,Amul,1471.62,918.89,pack,False
+PROD000971,Fortune Natural Cooking Oil 971,Grocery,Cooking Oil,Fortune,566.59,391.7,litre,True
+PROD000972,Monginis Classic Cakes 972,Bakery,Cakes,Monginis,616.22,517.31,ml,True
+PROD000973,Fortune Classic Cooking Oil 973,Grocery,Cooking Oil,Fortune,1457.99,1142.1,pack,True
+PROD000974,Coca-cola Special Soft Drinks 974,Beverages,Soft Drinks,Coca-cola,1014.88,608.24,gram,False
+PROD000975,India Gate Special Rice 975,Grocery,Rice,India Gate,608.21,424.01,gram,True
+PROD000976,Monginis Daily Cakes 976,Bakery,Cakes,Monginis,1212.36,912.06,gram,False
+PROD000977,Amul Organic Cheese 977,Dairy,Cheese,Amul,1245.33,849.72,litre,False
+PROD000978,Amul Original Cheese 978,Dairy,Cheese,Amul,1299.03,852.59,litre,True
+PROD000979,Fortune Value Cooking Oil 979,Grocery,Cooking Oil,Fortune,632.99,450.65,pack,True
+PROD000980,Britannia Organic Bread 980,Bakery,Bread,Britannia,1003.45,717.21,pack,False
+PROD000981,Britannia Organic Bread 981,Bakery,Bread,Britannia,432.95,322.3,kg,True
+PROD000982,Surf Excel Premium Laundry 982,Household,Laundry,Surf Excel,1220.48,984.44,pack,False
+PROD000983,Surf Excel Natural Laundry 983,Household,Laundry,Surf Excel,279.76,190.23,pack,True
+PROD000984,Surf Excel Family Laundry 984,Household,Laundry,Surf Excel,1433.93,814.36,ml,True
+PROD000985,Lux Classic Soap 985,Personal Care,Soap,Lux,536.72,335.22,pack,True
+PROD000986,Surf Excel Original Laundry 986,Household,Laundry,Surf Excel,1901.98,1242.64,pack,True
+PROD000987,Fresho Natural Fresh Vegetables 987,Vegetables,Fresh Vegetables,Fresho,1843.31,1134.43,pack,True
+PROD000988,Surf Excel Organic Laundry 988,Household,Laundry,Surf Excel,1838.66,1291.87,litre,True
+PROD000989,Fresho Natural Fresh Fruits 989,Fruits,Fresh Fruits,Fresho,636.99,457.2,litre,True
+PROD000990,Haldiram Classic Namkeen 990,Snacks,Namkeen,Haldiram,1034.74,803.41,litre,True
+PROD000991,Fortune Natural Cooking Oil 991,Grocery,Cooking Oil,Fortune,432.6,256.35,gram,True
+PROD000992,Coca-cola Fresh Soft Drinks 992,Beverages,Soft Drinks,Coca-cola,846.63,593.17,piece,True
+PROD000993,Aashirvaad Value Atta 993,Grocery,Atta,Aashirvaad,1454.57,1014.95,kg,False
+PROD000994,Dove Family Shampoo 994,Personal Care,Shampoo,Dove,321.75,250.15,pack,False
+PROD000995,Dove Special Shampoo 995,Personal Care,Shampoo,Dove,31.94,26.03,ml,True
+PROD000996,Parle Natural Biscuits 996,Snacks,Biscuits,Parle,608.72,445.56,litre,True
+PROD000997,Amul Special Milk 997,Dairy,Milk,Amul,1182.13,1004.71,litre,False
+PROD000998,Real Family Juice 998,Beverages,Juice,Real,1106.5,937.48,invalid_unit,True
+PROD000999,Aashirvaad Natural Atta 999,Grocery,Atta,Aashirvaad,484.93,270.57,gram,True
+PROD001000,Monginis Special Cakes 1000,Bakery,Cakes,Monginis,1997.39,1134.9,gram,True

@@ -1,0 +1,21 @@
+store_id,store_name,city,state,pincode,latitude,longitude,opened_date,is_active
+STORE001,Pune North,Pune,Maharashtra,411001,18.4765,73.795032,2023-04-06,True
+STORE002,Chennai Central,Chennai,Tamil Nadu,600040,12.965027,80.266167,2023-09-13,False
+STORE003,Chennai Market,Chennai,Tamil Nadu,600028,13.064914,80.250505,2022-05-31,True
+STORE004,Kolkata West,Kolkata,West Bengal,700019,22.592583,88.316801,2025-04-20,True
+STORE005,Mumbai Main,Mumbai,Maharashtra,400053,18.932315,72.893798,2022-03-13,True
+STORE006,Pune North,Pune,Maharashtra,411001,18.521592,73.933378,2022-09-24,True
+STORE007,Delhi East,Delhi,Delhi,110029,28.666484,77.108689,2024-06-12,True
+STORE008,Delhi Main,Delhi,Delhi,110016,28.605427,77.194176,2025-04-23,True
+STORE009,Hyderabad Tech Park,Hyderabad,Telangana,500032,17.418336,78.508812,2023-12-10,True
+STORE010,Mumbai South,Mumbai,Maharashtra,400070,18.902787,72.932473,2025-05-21,True
+STORE011,Mumbai East,Mumbai,Maharashtra,400050,19.021359,72.854141,2023-04-04,True
+STORE012,Pune Central,Pune,Maharashtra,411001,18.55138,73.844789,2023-01-03,True
+STORE013,Chennai West,Chennai,Tamil Nadu,600018,13.088157,80.159459,2022-01-14,False
+STORE014,Mumbai South,Mumbai,Maharashtra,400050,19.106471,72.893971,2022-05-05,True
+STORE015,Pune West,Pune,Maharashtra,411038,18.596037,73.949316,2023-11-07,False
+STORE016,Bengaluru West,Bengaluru,Karnataka,560038,12.973671,77.610174,2025-01-25,False
+STORE017,Bengaluru Main,Bengaluru,Karnataka,560095,12.937822,77.691523,2022-09-29,True
+STORE018,Pune Market,Pune,Maharashtra,411001,18.54765,73.932393,2023-07-16,True
+STORE019,Mumbai Main,Mumbai,Maharashtra,400070,18.97294,72.905201,2024-09-25,True
+STORE020,Chennai West,Chennai,Tamil Nadu,600028,13.079628,80.253791,2023-05-28,True

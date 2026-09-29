@@ -1,61 +1,48 @@
+@"
 # ============================================================
-
 # PYTHON
-
 # ============================================================
 
-**pycache**/
+__pycache__/
 *.py[cod]
 *$py.class
 *.pyo
 *.pyd
 
-# Python virtual environments
-
+# Virtual environments
 .venv/
 venv/
 env/
 ENV/
+.venv_broken/
 
 # Python packaging
-
 build/
 dist/
 *.egg-info/
 .eggs/
 
 # ============================================================
-
 # JUPYTER / NOTEBOOKS
-
 # ============================================================
 
 .ipynb_checkpoints/
 
 # ============================================================
-
 # IDE / EDITOR
-
 # ============================================================
 
 .vscode/
 .idea/
-
-# VS Code local settings
-
 *.code-workspace
 
 # ============================================================
-
 # ENVIRONMENT / SECRETS
-
 # ============================================================
 
 .env
 .env.*
 !.env.example
-
-# Local credentials / keys
 
 *.pem
 *.key
@@ -63,39 +50,42 @@ credentials.json
 secrets.json
 
 # ============================================================
-
 # GENERATED DATA
-
 # ============================================================
 
-# Raw/generated datasets
-
+# Raw datasets
 data/raw/
 data/raw_dirty/
 
-# Bronze / Silver / Gold generated outputs
-
+# Bronze / Silver are pipeline intermediates
 data/bronze/
 data/silver/
-data/gold/
 
-# ML-generated datasets
-
-data/ml/
-
-# Data quarantine
-
+# Quarantine
 data/quarantine/
 
 # Temporary/generated files
-
 data/tmp/
 data/temp/
 
 # ============================================================
+# ML DATA
+# ============================================================
 
+# Large intermediate ML datasets
+data/ml/calendarized_demand_features/
+data/ml/product_store_daily_demand/
+
+# Local ML helper file
+data/ml/delivered_order_ids.txt
+
+# Keep dashboard-required ML outputs:
+# data/ml/demand_predictions/
+# data/ml/feature_importance/
+# data/ml/model_metrics/
+
+# ============================================================
 # GENERATED MODELS
-
 # ============================================================
 
 models/*.pkl
@@ -108,55 +98,39 @@ models/*.h5
 models/*.keras
 
 # ============================================================
-
 # LOGS
-
 # ============================================================
 
 *.log
 logs/
 
 # ============================================================
-
 # STREAMLIT
-
 # ============================================================
 
 .streamlit/secrets.toml
 
 # ============================================================
-
 # SPARK / HADOOP / LOCAL TEMP FILES
-
 # ============================================================
 
 .sparkStaging/
 spark-warehouse/
 metastore_db/
 derby.log/
-
 *.crc
 
 # ============================================================
-
 # OS FILES
-
 # ============================================================
-
-# Windows
 
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# macOS
-
 .DS_Store
 
 # ============================================================
-
 # TEMPORARY FILES
-
 # ============================================================
 
 *.tmp
@@ -167,49 +141,18 @@ Desktop.ini
 *~
 
 # ============================================================
-
 # PROJECT-SPECIFIC GENERATED FILES
-
 # ============================================================
 
-# Generated reports
-
 reports/generated/
-
-# Generated charts
-
 outputs/
 
 # ============================================================
-
-# KEEP IMPORTANT PROJECT FILES
-
+# IMPORTANT PROJECT DATA
 # ============================================================
 
-# Knowledge documents are intentionally NOT ignored.
-
-# Keep:
-
-# data/knowledge/
-
-#
-
-# Documentation is intentionally NOT ignored.
-
-# Keep:
-
-# docs/
-
-#
-
-# Source code is intentionally NOT ignored.
-
-# Keep:
-
-# pipelines/
-
-# frontend/
-
-# data_generator/
-
-# quality/
+# data/gold/ is intentionally kept for Streamlit deployment.
+# data/knowledge/ is intentionally kept for the RAG assistant.
+# docs/, pipelines/, frontend/, data_generator/, quality/
+# are source/project files and are intentionally kept.
+"@ | Set-Content .gitignore

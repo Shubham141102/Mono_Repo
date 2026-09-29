@@ -1,0 +1,101 @@
+partner_id,first_name,last_name,phone,city,vehicle_type,joining_date,rating,is_active
+DP000001,Arjun,Verma,9230418986,Chennai,Bike,2022-10-04,3.5,True
+DP000002,Vikram,Verma,6610033734,Bengaluru,Scooter,2023-10-12,4.6,True
+DP000003,Nikhil,Kumar,9993604624,Kolkata,Scooter,2022-10-21,4.2,True
+DP000004,Akash,Verma,6860865231,Chennai,Scooter,2022-04-12,3.8,True
+DP000005,Amit,Nair,8642226920,Bengaluru,Electric Bike,2023-06-22,4.7,True
+DP000006,Rohan,Nair,7780136067,Pune,Scooter,2025-08-23,4.7,False
+DP000007,Suresh,Verma,7780586238,Hyderabad,Scooter,2024-12-01,4.1,True
+DP000008,Varun,Verma,6869650922,Bengaluru,Bike,2025-06-26,4.6,True
+DP000009,Karan,Yadav,9574673023,Bengaluru,Scooter,2025-11-26,3.5,True
+DP000010,Suresh,Gupta,7031067678,Chennai,Electric Bike,2022-10-05,4.3,True
+DP000011,Rahul,Kumar,7628661535,Mumbai,Scooter,2023-04-07,3.0,True
+DP000012,Rahul,Mehta,6804346528,Kolkata,Scooter,2024-01-10,3.3,True
+DP000013,Vikram,Sharma,7647841954,Hyderabad,Electric Bike,2023-11-21,4.7,True
+DP000014,Suresh,Sharma,9664386008,Chennai,Electric Bike,2025-08-15,4.0,False
+DP000015,Karan,Singh,8075113249,Chennai,Electric Bike,2025-05-28,3.3,True
+DP000016,Suresh,Sharma,7878379281,Kolkata,Scooter,2024-01-26,4.5,True
+DP000017,Nikhil,Yadav,9357734220,Mumbai,Bike,2022-11-05,4.8,True
+DP000018,Varun,Reddy,6907475199,Chennai,Electric Bike,2023-07-23,3.7,True
+DP000019,Arjun,Patel,9448614839,Hyderabad,Scooter,2024-03-20,4.4,True
+DP000020,Vikram,Singh,7819626632,Bengaluru,Electric Bike,2023-03-18,4.6,True
+DP000021,Karan,Yadav,8242411736,Kolkata,Scooter,2022-01-16,4.0,True
+DP000022,Rohan,Yadav,6387735794,Delhi,Electric Bike,2025-03-02,3.9,True
+DP000023,Akash,Singh,7581161764,Pune,Scooter,2023-09-15,4.0,False
+DP000024,Suresh,Patel,9298540437,Chennai,Electric Bike,2025-09-13,4.0,True
+DP000025,Ravi,Gupta,9832970215,Delhi,Electric Bike,2023-01-24,3.5,False
+DP000026,Karan,Yadav,7825492763,Hyderabad,Bike,2023-06-11,3.6,True
+DP000027,Varun,Mehta,7415472858,Bengaluru,Electric Bike,2023-11-21,4.5,True
+DP000028,Rahul,Singh,6937370567,Pune,Bike,2022-12-26,4.3,True
+DP000029,Akash,Gupta,9853568580,Chennai,Electric Bike,2025-11-04,4.2,True
+DP000030,Akash,Mehta,8297397049,Pune,Scooter,2022-02-10,4.7,True
+DP000031,Vikram,Gupta,8635839878,Bengaluru,Electric Bike,2023-03-15,3.7,True
+DP000032,Ravi,Patel,9605136086,Delhi,Scooter,2023-10-24,4.0,True
+DP000033,Akash,Mehta,9674259506,Kolkata,Scooter,2024-09-23,4.6,True
+DP000034,Arjun,Yadav,7744489527,Mumbai,Scooter,2022-10-13,3.2,False
+DP000035,Rahul,Yadav,6480802809,Pune,Electric Bike,2025-04-18,3.1,True
+DP000036,Vikram,Kumar,8222127409,Hyderabad,Bike,2023-06-20,3.9,True
+DP000037,Nikhil,Sharma,9607230588,Kolkata,Scooter,2023-11-19,3.5,True
+DP000038,Suresh,Gupta,9516615582,Pune,Bike,2022-05-15,3.7,True
+DP000039,Nikhil,Gupta,7127695023,Bengaluru,Bike,2023-03-21,5.0,True
+DP000040,Akash,Verma,6221488117,Kolkata,Electric Bike,2022-11-28,3.6,True
+DP000041,Suresh,Mehta,6541655303,Hyderabad,Scooter,2025-11-04,3.5,False
+DP000042,Rahul,Kumar,7744559493,Bengaluru,Scooter,2022-09-02,3.3,True
+DP000043,Akash,Nair,6484048024,Bengaluru,Electric Bike,2025-12-23,4.9,True
+DP000044,Akash,Reddy,7883658746,Mumbai,Bike,2025-04-18,3.4,True
+DP000045,Arjun,Sharma,7629795496,Hyderabad,Electric Bike,2023-09-10,3.2,True
+DP000046,Varun,Gupta,6282967721,Kolkata,Scooter,2022-04-10,4.0,False
+DP000047,Nikhil,Patel,6920132719,Chennai,Scooter,2024-05-15,4.0,False
+DP000048,Nikhil,Singh,6979446526,Mumbai,Bike,2022-05-19,4.5,True
+DP000049,Rohan,Gupta,6608169701,Bengaluru,Electric Bike,2024-04-19,4.2,True
+DP000050,Rohan,Kumar,9086386209,Pune,Electric Bike,2024-05-31,3.0,False
+DP000051,Varun,Singh,9510215108,Kolkata,Bike,2023-08-15,4.4,True
+DP000052,Manoj,Sharma,7181653142,Hyderabad,Bike,2022-07-03,4.4,True
+DP000053,Vikram,Sharma,6596353256,Bengaluru,Electric Bike,2022-05-19,3.6,True
+DP000054,Manoj,Yadav,7567982052,Bengaluru,Scooter,2025-12-19,3.5,False
+DP000055,Akash,Yadav,9838144666,Mumbai,Electric Bike,2022-04-29,3.2,True
+DP000056,Arjun,Kumar,8953657465,Delhi,Electric Bike,2023-12-16,3.9,False
+DP000057,Varun,Gupta,7542602168,Hyderabad,Scooter,2025-11-22,4.6,True
+DP000058,Nikhil,Reddy,6449160475,Bengaluru,Electric Bike,2023-05-21,3.5,False
+DP000059,Rohan,Singh,8238819439,Pune,Scooter,2022-05-24,4.0,False
+DP000060,Rahul,Kumar,7978030505,Delhi,Bike,2025-09-16,3.9,True
+DP000061,Vikram,Patel,7152999357,Kolkata,Bike,2023-11-07,3.9,True
+DP000062,Nikhil,Sharma,9061946887,Chennai,Bike,2023-06-06,4.2,True
+DP000063,Akash,Kumar,8482836721,Kolkata,Bike,2022-01-30,4.2,True
+DP000064,Rohan,Patel,7905031832,Chennai,Electric Bike,2024-11-03,4.8,True
+DP000065,Vikram,Patel,9121840303,Mumbai,Bike,2024-03-24,3.6,True
+DP000066,Akash,Mehta,8767613131,Chennai,Bike,2022-06-24,4.7,True
+DP000067,Rohan,Yadav,6165350147,Kolkata,Electric Bike,2025-03-30,3.2,True
+DP000068,Ravi,Sharma,6150848433,Hyderabad,Bike,2025-06-11,4.7,True
+DP000069,Amit,Mehta,9991111609,Hyderabad,Scooter,2023-02-27,3.5,True
+DP000070,Suresh,Reddy,7368255400,Bengaluru,Bike,2024-03-18,4.1,True
+DP000071,Akash,Yadav,9011724986,Pune,Bike,2024-11-13,3.6,True
+DP000072,Nikhil,Mehta,9713346527,Delhi,Scooter,2023-06-30,3.4,True
+DP000073,Amit,Gupta,7449071325,Delhi,Electric Bike,2024-01-22,3.4,False
+DP000074,Karan,Reddy,7274410286,Mumbai,Bike,2023-12-23,3.2,True
+DP000075,Arjun,Reddy,8442140589,Bengaluru,Electric Bike,2024-02-18,3.1,True
+DP000076,Varun,Gupta,7755932906,Hyderabad,Bike,2025-06-30,3.3,True
+DP000077,Amit,Nair,6301725723,Hyderabad,Electric Bike,2022-05-30,4.3,True
+DP000078,Suresh,Kumar,9541586273,Bengaluru,Scooter,2023-04-11,3.6,True
+DP000079,Varun,Patel,6576617078,Mumbai,Bike,2024-10-06,3.4,True
+DP000080,Nikhil,Reddy,8037647105,Delhi,Scooter,2024-08-10,5.0,True
+DP000081,Nikhil,Verma,6424792882,Hyderabad,Electric Bike,2025-03-17,3.2,True
+DP000082,Amit,Singh,9995603541,Kolkata,Scooter,2022-06-25,4.8,True
+DP000083,Varun,Kumar,7761276561,Delhi,Bike,2024-11-20,3.8,True
+DP000084,Rohan,Sharma,6534842440,Chennai,Electric Bike,2024-02-13,4.1,True
+DP000085,Akash,Singh,7093245955,Kolkata,Electric Bike,2025-04-12,3.9,False
+DP000086,Suresh,Nair,8880184237,Mumbai,Scooter,2025-03-16,4.5,True
+DP000087,Nikhil,Reddy,9610057643,Mumbai,Electric Bike,2025-07-21,4.4,True
+DP000088,Vikram,Sharma,9286780551,Pune,Electric Bike,2024-11-03,3.4,True
+DP000089,Ravi,Patel,9287181148,Chennai,Scooter,2025-07-04,3.5,True
+DP000090,Ravi,Patel,6862961804,Mumbai,Bike,2025-11-14,4.6,True
+DP000091,Nikhil,Yadav,9376803882,Delhi,Electric Bike,2022-09-28,4.5,True
+DP000092,Amit,Yadav,9299863236,Kolkata,Scooter,2023-12-22,4.4,True
+DP000093,Amit,Reddy,8562731323,Kolkata,Scooter,2025-10-11,4.5,True
+DP000094,Varun,Gupta,7320613686,Kolkata,Electric Bike,2024-08-04,4.8,True
+DP000095,Suresh,Mehta,6519625943,Kolkata,Electric Bike,2025-09-19,4.6,True
+DP000096,Varun,Verma,6652359662,Chennai,Electric Bike,2024-02-01,4.3,True
+DP000097,Rohan,Sharma,8520492117,Delhi,Electric Bike,2022-09-14,4.6,True
+DP000098,Vikram,Verma,6309057617,Bengaluru,Electric Bike,2025-07-08,4.3,True
+DP000099,Rahul,Mehta,7636289211,Mumbai,Scooter,2023-06-19,3.5,True
+DP000100,Suresh,Patel,7127612770,Pune,Scooter,2022-03-10,3.7,True

@@ -1,0 +1,2 @@
+model,training_rows,testing_rows,features,mae,rmse,r2
+RandomForestRegressor,820680,205170,17,0.7598,1.3025,-0.0076
