@@ -18,8 +18,10 @@ RAG_DIR = PROJECT_ROOT / "pipelines" / "rag"
 
 if str(RAG_DIR) not in sys.path:
     sys.path.insert(0, str(RAG_DIR))
-
-from hybrid_rag import build_inventory_context
+from hybrid_rag import (
+    build_inventory_context,
+    generate_business_answer,
+)
 
 
 # ============================================================
@@ -2370,28 +2372,22 @@ elif page == "🤖 Business Assistant":
 
             try:
 
-                context = build_inventory_context(
-                    query=question,
-                    top_k_documents=1,
-                    top_k_products=10,
-                )
+                with st.spinner("Analyzing business data..."):
 
-                st.success(
-                    "Hybrid RAG retrieval completed."
-                )
+                    answer = generate_business_answer(
+                        query=question,
+                        top_k_documents=1,
+                        top_k_products=10,
+                    )
+
+                st.success("Business Assistant generated an answer.")
 
                 st.markdown(
-                    '<div class="section-title">'
-                    'Retrieved Business Context'
-                    '</div>',
+                    '<div class="section-title">Business Answer</div>',
                     unsafe_allow_html=True,
                 )
 
-                st.text_area(
-                    "Hybrid RAG Context",
-                    context,
-                    height=600,
-                )
+                st.markdown(answer)
 
             except Exception as e:
 
