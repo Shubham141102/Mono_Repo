@@ -1,0 +1,3 @@
+# Only research_agent.py (the Claude API version) needs a package.
+# webapp/ and local_agent.py use the Python standard library only.
+anthropic
