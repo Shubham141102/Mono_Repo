@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Secrets (never commit API keys)
+.env
+
+# Agent output (generated at runtime)
+notes/
+transcript.json
+
+# Editor / tool settings
+.claude/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
