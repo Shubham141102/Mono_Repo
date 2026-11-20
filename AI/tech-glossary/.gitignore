@@ -1,0 +1,4 @@
+# Local secrets and personal data - never commit
+.streamlit/secrets.toml
+*.db
+__pycache__/
