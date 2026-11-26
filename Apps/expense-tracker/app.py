@@ -49,8 +49,8 @@ else:
             st.session_state.clear()
             st.rerun()
     pg = st.navigation([
-        st.Page("views/overview.py", title="Overview", icon="📊", default=True),
-        st.Page("views/records.py", title="Records", icon="📝"),
+        st.Page("views/dashboard.py", title="Dashboard", icon="📊", default=True),
+        st.Page("views/transactions.py", title="Transactions", icon="💳"),
         st.Page("views/categories.py", title="Categories", icon="🏷️"),
     ])
 
