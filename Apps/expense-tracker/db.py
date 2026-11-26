@@ -20,16 +20,39 @@ KINDS = ("expense", "income")
 PAYMENT_METHODS = ["UPI", "Card", "Cash", "Bank transfer", "Other"]
 
 DEFAULT_CATEGORIES = [
-    ("Food & Dining", "expense", "🍔"), ("Groceries", "expense", "🛒"),
-    ("Rent", "expense", "🏠"), ("Transport", "expense", "🚗"),
-    ("Bills & Utilities", "expense", "💡"), ("Shopping", "expense", "🛍️"),
-    ("Health", "expense", "💊"), ("Entertainment", "expense", "🎬"),
-    ("Education", "expense", "📚"), ("Travel", "expense", "✈️"),
+    ("Food & Dining", "expense", "🍔"), ("Bills & Utilities", "expense", "💡"),
+    ("Transportation", "expense", "🚗"), ("Shopping", "expense", "🛍️"),
+    ("Entertainment", "expense", "🎬"), ("Health & Medical", "expense", "🏥"),
+    ("Education", "expense", "📚"), ("Rent & Housing", "expense", "🏠"),
+    ("Travel", "expense", "✈️"), ("Personal Care", "expense", "💇"),
     ("Other", "expense", "📦"),
-    ("Salary", "income", "💼"), ("Freelance", "income", "💻"),
-    ("Investments", "income", "📈"), ("Gift", "income", "🎁"),
-    ("Other", "income", "💰"),
+    ("Salary", "income", "💼"), ("Freelancing", "income", "💻"),
+    ("Business Income", "income", "🏢"), ("Investment Returns", "income", "📈"),
+    ("Interest", "income", "🏦"), ("Rental Income", "income", "🏠"),
+    ("Gifts", "income", "🎁"), ("Cashback", "income", "💳"),
+    ("Bonus", "income", "🏆"), ("Other Income", "income", "💰"),
 ]
+# older built-in names -> new names (migrated in place, transactions keep their category)
+DEFAULT_RENAMES = [
+    ("expense", "Rent", "Rent & Housing"), ("expense", "Transport", "Transportation"),
+    ("expense", "Health", "Health & Medical"), ("income", "Freelance", "Freelancing"),
+    ("income", "Investments", "Investment Returns"), ("income", "Gift", "Gifts"),
+    ("income", "Other", "Other Income"),
+]
+# older built-ins folded into another (their transactions move over)
+DEFAULT_MERGES = [("expense", "Groceries", "Food & Dining")]
+
+# 8 colour-blind-safe category colours (validated categorical palette)
+COLORS = {
+    "Blue": "#2a78d6", "Orange": "#eb6834", "Aqua": "#1baf7a", "Yellow": "#eda100",
+    "Magenta": "#e87ba4", "Green": "#008300", "Violet": "#6250d6", "Red": "#e34948",
+}
+SORTS = {
+    "Newest first": "t.txn_date DESC, t.id DESC",
+    "Oldest first": "t.txn_date ASC, t.id ASC",
+    "Amount: high to low": "t.amount DESC, t.id DESC",
+    "Amount: low to high": "t.amount ASC, t.id ASC",
+}
 
 # ---------------------------------------------------------------- schema
 metadata = MetaData()
@@ -62,6 +85,14 @@ hidden_categories = Table(
     "hidden_categories", metadata,
     Column("user_id", Integer, ForeignKey("users.id", ondelete="CASCADE"), primary_key=True),
     Column("category_id", Integer, ForeignKey("categories.id", ondelete="CASCADE"), primary_key=True),
+)
+
+category_colors = Table(
+    # per-user colour choice, works for built-in and custom categories
+    "category_colors", metadata,
+    Column("user_id", Integer, ForeignKey("users.id", ondelete="CASCADE"), primary_key=True),
+    Column("category_id", Integer, ForeignKey("categories.id", ondelete="CASCADE"), primary_key=True),
+    Column("color", String(7), nullable=False),
 )
 
 transactions = Table(
@@ -115,16 +146,32 @@ def get_engine():
 
 @st.cache_resource
 def init_db():
-    """Create tables (if missing) and seed default categories once."""
+    """Create tables (if missing) and bring built-in categories up to date. Safe to run repeatedly."""
     engine = get_engine()
     metadata.create_all(engine)
+    icons = {(k, n): i for n, k, i in DEFAULT_CATEGORIES}
     with engine.begin() as conn:
-        n = conn.execute(text("SELECT COUNT(*) FROM categories WHERE user_id IS NULL")).scalar()
-        if n == 0:
-            conn.execute(
-                text("INSERT INTO categories (user_id, name, kind, icon) VALUES (NULL, :n, :k, :i)"),
-                [{"n": n_, "k": k, "i": i} for n_, k, i in DEFAULT_CATEGORIES],
-            )
+        def builtin(kind, name):
+            return conn.execute(
+                text("SELECT id FROM categories WHERE user_id IS NULL AND kind = :k AND name = :n"),
+                {"k": kind, "n": name}).scalar()
+
+        for kind, old, new in DEFAULT_RENAMES:
+            oid = builtin(kind, old)
+            if oid and not builtin(kind, new):
+                conn.execute(text("UPDATE categories SET name = :n, icon = :i WHERE id = :id"),
+                             {"n": new, "i": icons[(kind, new)], "id": oid})
+        for kind, old, into in DEFAULT_MERGES:
+            oid, tid = builtin(kind, old), builtin(kind, into)
+            if oid and tid:
+                conn.execute(text("UPDATE transactions SET category_id = :t WHERE category_id = :o"), {"t": tid, "o": oid})
+                conn.execute(text("DELETE FROM hidden_categories WHERE category_id = :o"), {"o": oid})
+                conn.execute(text("DELETE FROM category_colors WHERE category_id = :o"), {"o": oid})
+                conn.execute(text("DELETE FROM categories WHERE id = :o"), {"o": oid})
+        for name, kind, icon in DEFAULT_CATEGORIES:
+            if not builtin(kind, name):
+                conn.execute(text("INSERT INTO categories (user_id, name, kind, icon) VALUES (NULL, :n, :k, :i)"),
+                             {"n": name, "k": kind, "i": icon})
     return True
 
 
@@ -161,13 +208,14 @@ def create_user(name, email, password_hash, role="user"):
 def get_categories(user_id, kind=None, include_archived=True):
     """Built-in categories + the user's own custom ones, with archive flag and record count."""
     sql = """
-        SELECT c.id, c.name, c.kind, c.icon,
+        SELECT c.id, c.name, c.kind, c.icon, cc.color,
                CASE WHEN c.user_id IS NULL THEN 0 ELSE 1 END AS is_custom,
                CASE WHEN h.category_id IS NULL THEN 0 ELSE 1 END AS archived,
                (SELECT COUNT(*) FROM transactions t
                  WHERE t.category_id = c.id AND t.user_id = :uid) AS records
         FROM categories c
         LEFT JOIN hidden_categories h ON h.category_id = c.id AND h.user_id = :uid
+        LEFT JOIN category_colors cc ON cc.category_id = c.id AND cc.user_id = :uid
         WHERE (c.user_id IS NULL OR c.user_id = :uid)
     """
     params = {"uid": user_id}
@@ -232,6 +280,37 @@ def set_archived(user_id, category_id, archived):
                {"uid": user_id, "cid": category_id}, write=True)
 
 
+def set_color(user_id, category_id, color):
+    """color = one of COLORS' hex values, or None for automatic."""
+    if color is not None and color not in COLORS.values():
+        raise ValueError("Pick one of the preset colours.")
+    if not run("SELECT 1 FROM categories WHERE id = :cid AND (user_id IS NULL OR user_id = :uid)",
+               {"cid": category_id, "uid": user_id}):
+        raise ValueError("Category not found.")
+    with get_engine().begin() as conn:
+        conn.execute(text("DELETE FROM category_colors WHERE user_id = :uid AND category_id = :cid"),
+                     {"uid": user_id, "cid": category_id})
+        if color:
+            conn.execute(text("INSERT INTO category_colors (user_id, category_id, color) VALUES (:uid, :cid, :c)"),
+                         {"uid": user_id, "cid": category_id, "c": color})
+
+
+def reassign_and_delete(user_id, from_id, to_id):
+    """Move all of the user's transactions from a custom category to another of the same type, then delete it."""
+    src = run("SELECT kind FROM categories WHERE id = :f AND user_id = :uid", {"f": from_id, "uid": user_id})
+    if not src:
+        raise ValueError("Built-in categories can't be deleted (archive them instead).")
+    if to_id == from_id or not category_allowed(user_id, to_id, src[0]["kind"]):
+        raise ValueError("Pick a different category of the same type.")
+    with get_engine().begin() as conn:  # one transaction: both happen or neither
+        moved = conn.execute(
+            text("""UPDATE transactions SET category_id = :t, updated_at = CURRENT_TIMESTAMP
+                    WHERE category_id = :f AND user_id = :uid"""),
+            {"t": to_id, "f": from_id, "uid": user_id}).rowcount
+        conn.execute(text("DELETE FROM categories WHERE id = :f AND user_id = :uid"), {"f": from_id, "uid": user_id})
+    return moved
+
+
 def delete_category(user_id, category_id):
     """Only custom categories with zero records can be deleted; otherwise archive."""
     used = run("SELECT COUNT(*) AS n FROM transactions WHERE category_id = :cid", {"cid": category_id})[0]["n"]
@@ -267,28 +346,60 @@ def add_transaction(user_id, kind, amount, category_id, txn_date, payment_method
     )
 
 
-def list_transactions(user_id, start, end, kind=None, category_ids=None, limit=None):
-    sql = """
+def _txn_where(user_id, start, end, kind, category_ids, payment_methods, search):
+    """Shared WHERE clause for listing and counting. Always scoped to the user."""
+    where = "t.user_id = :uid AND t.txn_date BETWEEN :start AND :end"
+    params = {"uid": user_id, "start": start.isoformat(), "end": end.isoformat()}
+    expanding = []
+    if kind:
+        where += " AND t.kind = :kind"
+        params["kind"] = kind
+    if category_ids:
+        where += " AND t.category_id IN :cids"
+        params["cids"] = list(category_ids)
+        expanding.append("cids")
+    if payment_methods:
+        where += " AND t.payment_method IN :pms"
+        params["pms"] = list(payment_methods)
+        expanding.append("pms")
+    if search and search.strip():
+        where += " AND (LOWER(t.note) LIKE :q OR LOWER(t.tags) LIKE :q OR LOWER(c.name) LIKE :q)"
+        params["q"] = f"%{search.strip().lower()}%"
+    return where, params, expanding
+
+
+def _stmt(sql, expanding):
+    stmt = text(sql)
+    if expanding:
+        stmt = stmt.bindparams(*[bindparam(n, expanding=True) for n in expanding])
+    return stmt
+
+
+def list_transactions(user_id, start, end, kind=None, category_ids=None, limit=None, *,
+                      payment_methods=None, search="", sort="Newest first", offset=0):
+    where, params, expanding = _txn_where(user_id, start, end, kind, category_ids, payment_methods, search)
+    sql = f"""
         SELECT t.id, t.txn_date, t.kind, t.category_id, c.name AS category, c.icon,
                t.amount, t.payment_method, t.tags, t.note
         FROM transactions t
         JOIN categories c ON c.id = t.category_id
-        WHERE t.user_id = :uid AND t.txn_date BETWEEN :start AND :end
+        WHERE {where}
+        ORDER BY {SORTS.get(sort, SORTS['Newest first'])}
     """
-    params = {"uid": user_id, "start": start.isoformat(), "end": end.isoformat()}
-    if kind:
-        sql += " AND t.kind = :kind"
-        params["kind"] = kind
-    if category_ids:
-        sql += " AND t.category_id IN :cids"
-        params["cids"] = list(category_ids)
-    sql += " ORDER BY t.txn_date DESC, t.id DESC"
     if limit:
-        sql += f" LIMIT {int(limit)}"
-    stmt = text(sql)
-    if category_ids:
-        stmt = stmt.bindparams(bindparam("cids", expanding=True))
-    return run(stmt, params)
+        sql += f" LIMIT {int(limit)} OFFSET {int(offset)}"
+    return run(_stmt(sql, expanding), params)
+
+
+def count_transactions(user_id, start, end, kind=None, category_ids=None, *, payment_methods=None, search=""):
+    where, params, expanding = _txn_where(user_id, start, end, kind, category_ids, payment_methods, search)
+    sql = f"""SELECT COUNT(*) AS n,
+                     COALESCE(SUM(CASE WHEN t.kind = 'income'  THEN t.amount END), 0) AS income,
+                     COALESCE(SUM(CASE WHEN t.kind = 'expense' THEN t.amount END), 0) AS expense
+              FROM transactions t JOIN categories c ON c.id = t.category_id
+              WHERE {where}"""
+    r = run(_stmt(sql, expanding), params)[0]
+    return int(r["n"]), float(r["income"]), float(r["expense"])
 
 
 def update_transaction(user_id, txn_id, kind, amount, category_id, txn_date, payment_method, tags, note):
@@ -338,12 +449,13 @@ def monthly_summary(user_id, since):
 def category_breakdown(user_id, kind, start, end):
     """Total per category for one type and date range, largest first. GROUP BY category."""
     return run(
-        """SELECT c.id, c.name, c.icon, SUM(t.amount) AS total, COUNT(*) AS n
+        """SELECT c.id, c.name, c.icon, cc.color, SUM(t.amount) AS total, COUNT(*) AS n
            FROM transactions t
            JOIN categories c ON c.id = t.category_id
+           LEFT JOIN category_colors cc ON cc.category_id = c.id AND cc.user_id = :uid
            WHERE t.user_id = :uid AND t.kind = :kind
              AND t.txn_date BETWEEN :start AND :end
-           GROUP BY c.id, c.name, c.icon
+           GROUP BY c.id, c.name, c.icon, cc.color
            ORDER BY total DESC""",
         {"uid": user_id, "kind": kind, "start": start.isoformat(), "end": end.isoformat()},
     )
